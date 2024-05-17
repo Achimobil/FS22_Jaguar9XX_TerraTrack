@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="80">
+	<author>Achimobil</author>
+	<version>0.0.0.1</version>
+	
+	<title>
+		<en>Jaguar Experiment</en>
+	</title>
+	
+	<description>
+		<en>
+<![CDATA[comming soon]]>
+		</en>
+	</description>
+	
+	<multiplayer supported="true"/>
+	
+	<iconFilename>jaguar960TT.dds</iconFilename>
+	
+	<storeItems>
+		<storeItem xmlFilename="stoneQuarry.xml"/>
+	</storeItems>
+	
+	<brands>
+		<brand name="FARMERTOOLS" title="Farmer Tools" image="store/brand_FarmerTools.dds"/>
+	</brands>
+</modDesc>
