@@ -235,20 +235,20 @@
     </dynamicallyLoadedParts>
 
     <lights>
-        <sharedLight linkNode="sideMarker_10Red"         filename="$data/shared/assets/lights/lizard/sideMarker11Red.xml"/>
-        <sharedLight linkNode="sideMarker_10Red1"        filename="$data/shared/assets/lights/lizard/sideMarker11Red.xml"/>
-        <sharedLight linkNode="sideMarker_04Orange1"     filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml" lightTypes="0" />
-        <sharedLight linkNode="sideMarker_04Orange2"     filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml" lightTypes="0" />
-        <sharedLight linkNode="sideMarker_04Orange3"     filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml" lightTypes="0" />
-        <sharedLight linkNode="sideMarker_10Orange"      filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml" lightTypes="0" />
-        <sharedLight linkNode="sideMarker_10Orange1"     filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml" lightTypes="0" />
-        <sharedLight linkNode="workingLightCircle_02_01" filename="$data/shared/assets/lights/lizard/workingLight02.xml" lightTypes="2" />
-        <sharedLight linkNode="workingLightCircle_02_02" filename="$data/shared/assets/lights/lizard/workingLight02.xml" lightTypes="2" />
+        <!-- <sharedLight linkNode="sideMarker_10Red"         filename="$data/shared/assets/lights/lizard/sideMarker11Red.xml"/> -->
+        <!-- <sharedLight linkNode="sideMarker_10Red1"        filename="$data/shared/assets/lights/lizard/sideMarker11Red.xml"/> -->
+        <!-- <sharedLight linkNode="sideMarker_04Orange1"     filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml" lightTypes="0" /> -->
+        <!-- <sharedLight linkNode="sideMarker_04Orange2"     filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml" lightTypes="0" /> -->
+        <!-- <sharedLight linkNode="sideMarker_04Orange3"     filename="$data/shared/assets/lights/lizard/sideMarker05Orange.xml" lightTypes="0" /> -->
+        <!-- <sharedLight linkNode="sideMarker_10Orange"      filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml" lightTypes="0" /> -->
+        <!-- <sharedLight linkNode="sideMarker_10Orange1"     filename="$data/shared/assets/lights/lizard/sideMarker11Orange.xml" lightTypes="0" /> -->
+        <!-- <sharedLight linkNode="workingLightCircle_02_01" filename="$data/shared/assets/lights/lizard/workingLight02.xml" lightTypes="2" /> -->
+        <!-- <sharedLight linkNode="workingLightCircle_02_02" filename="$data/shared/assets/lights/lizard/workingLight02.xml" lightTypes="2" /> -->
 
-        <sharedLight linkNode="redRound_02_01"       filename="$data/shared/assets/reflectors/lizard/redRound_01.xml"/>
-        <sharedLight linkNode="redRound_02_02"       filename="$data/shared/assets/reflectors/lizard/redRound_01.xml"/>
-        <sharedLight linkNode="yellowRound_02_01"    filename="$data/shared/assets/reflectors/lizard/yellowRound_01.xml"/>
-        <sharedLight linkNode="yellowRound_02_02"    filename="$data/shared/assets/reflectors/lizard/yellowRound_01.xml"/>
+        <!-- <sharedLight linkNode="redRound_02_01"       filename="$data/shared/assets/reflectors/lizard/redRound_01.xml"/> -->
+        <!-- <sharedLight linkNode="redRound_02_02"       filename="$data/shared/assets/reflectors/lizard/redRound_01.xml"/> -->
+        <!-- <sharedLight linkNode="yellowRound_02_01"    filename="$data/shared/assets/reflectors/lizard/yellowRound_01.xml"/> -->
+        <!-- <sharedLight linkNode="yellowRound_02_02"    filename="$data/shared/assets/reflectors/lizard/yellowRound_01.xml"/> -->
 
         <states>
             <state lightTypes="0" />
@@ -257,31 +257,31 @@
             <state lightTypes="0 1 2 4" />
         </states>
 
-        <realLights>
-            <low>
-                <light node="frontLightLow"         lightTypes="0" excludedLightTypes="2 3" />
-                <light node="workLightBackLowShort" lightTypes="4"/>
-                <light node="workLightBackLowLong"  lightTypes="4"/>
-                <light node="workLightBackHigh1"    lightTypes="1"/>
-                <light node="workLightFrontLow"     lightTypes="2"/>
-                <light node="highBeamLow"           lightTypes="3" />
-            </low>
-            <high>
-                <light node="frontLightHigh"        lightTypes="0" excludedLightTypes="2 3" />
-                <light node="backLightsHigh1"       lightTypes="0"/>
-                <light node="licensePlateLightHigh" lightTypes="0"/>
-                <light node="workLightBackHigh1"    lightTypes="1"/>
-                <light node="workLightFrontHigh1"   lightTypes="2"/>
-                <light node="highBeamHigh"          lightTypes="3"/>
-                <light node="workLightBackLowShort" lightTypes="4"/>
-                <light node="workLightBackLowLong"  lightTypes="4"/>
-                <brakeLight node="backLightsHigh1" />
-                <turnLightLeft node="turnLightLeftFront" />
-                <turnLightRight node="turnLightRightFront" />
-                <reverseLight node="reverseLightHigh1" />
-                <interiorLight node="interiorScreenLight"/>
-            </high>
-        </realLights>
+        <!-- <realLights> -->
+            <!-- <low> -->
+                <!-- <light node="frontLightLow"         lightTypes="0" excludedLightTypes="2 3" /> -->
+                <!-- <light node="workLightBackLowShort" lightTypes="4"/> -->
+                <!-- <light node="workLightBackLowLong"  lightTypes="4"/> -->
+                <!-- <light node="workLightBackHigh1"    lightTypes="1"/> -->
+                <!-- <light node="workLightFrontLow"     lightTypes="2"/> -->
+                <!-- <light node="highBeamLow"           lightTypes="3" /> -->
+            <!-- </low> -->
+            <!-- <high> -->
+                <!-- <light node="frontLightHigh"        lightTypes="0" excludedLightTypes="2 3" /> -->
+                <!-- <light node="backLightsHigh1"       lightTypes="0"/> -->
+                <!-- <light node="licensePlateLightHigh" lightTypes="0"/> -->
+                <!-- <light node="workLightBackHigh1"    lightTypes="1"/> -->
+                <!-- <light node="workLightFrontHigh1"   lightTypes="2"/> -->
+                <!-- <light node="highBeamHigh"          lightTypes="3"/> -->
+                <!-- <light node="workLightBackLowShort" lightTypes="4"/> -->
+                <!-- <light node="workLightBackLowLong"  lightTypes="4"/> -->
+                <!-- <brakeLight node="backLightsHigh1" /> -->
+                <!-- <turnLightLeft node="turnLightLeftFront" /> -->
+                <!-- <turnLightRight node="turnLightRightFront" /> -->
+                <!-- <reverseLight node="reverseLightHigh1" /> -->
+                <!-- <interiorLight node="interiorScreenLight"/> -->
+            <!-- </high> -->
+        <!-- </realLights> -->
 
         <defaultLights>
             <defaultLight shaderNode="frontlightStatic"        lightTypes="0 3" />
@@ -740,6 +740,8 @@
         <i3dMapping id="drum02" node="1>1|1|2|9|1" />
         <i3dMapping id="trailerAttacherJointBack" node="1>1|1|3|0" />
         <i3dMapping id="axisJoint" node="1>1|2" />
+        <i3dMapping id="playerLeftFootTarget" node="1>1|3|0|0" />
+        <i3dMapping id="playerRightFootTarget" node="1>1|3|0|1" />
         <i3dMapping id="dashboards" node="1>1|3|1" />
         <i3dMapping id="beaconLight_decal" node="1>1|3|1|0" />
         <i3dMapping id="cabinDecalLight" node="1>1|3|1|1" />
@@ -748,8 +750,15 @@
         <i3dMapping id="worklightBackDecal" node="1>1|3|1|4" />
         <i3dMapping id="worklightBackDecal1" node="1>1|3|1|5" />
         <i3dMapping id="worklightFrontDecal" node="1>1|3|1|6" />
+        <i3dMapping id="mirrorDecal_01" node="1>1|3|2|0" />
+        <i3dMapping id="mirrorDecal_02" node="1>1|3|2|1" />
+        <i3dMapping id="mirrorDecal_03" node="1>1|3|2|2" />
+        <i3dMapping id="mirrorDecal_04" node="1>1|3|2|3" />
+        <i3dMapping id="mirrorDecal_05" node="1>1|3|2|4" />
+        <i3dMapping id="mirrorDecal_06" node="1>1|3|2|5" />
         <i3dMapping id="seat" node="1>1|3|3" />
         <i3dMapping id="joystick" node="1>1|3|3|0|0|0" />
+        <i3dMapping id="playerRightHandTarget" node="1>1|3|3|0|0|0|0" />
         <i3dMapping id="seatArmrest_decal2" node="1>1|3|3|0|0|0|1" />
         <i3dMapping id="seatArmrest_decal" node="1>1|3|3|0|3" />
         <i3dMapping id="seatArmrest_decal1" node="1>1|3|3|0|4" />
@@ -758,17 +767,26 @@
         <i3dMapping id="loadBarRpm" node="1>1|3|3|1|1|1" />
         <i3dMapping id="loadBarSpeed" node="1>1|3|3|1|1|2" />
         <i3dMapping id="numbersFuel" node="1>1|3|3|1|1|4" />
+        <i3dMapping id="numbersOperatingTime" node="1>1|3|3|1|1|5" />
         <i3dMapping id="numbersRpm" node="1>1|3|3|1|1|6" />
         <i3dMapping id="numbersSpeed" node="1>1|3|3|1|1|7" />
         <i3dMapping id="numbersSpeedCC" node="1>1|3|3|1|1|8" />
         <i3dMapping id="numbersTemp" node="1>1|3|3|1|1|9" />
         <i3dMapping id="playerSkin" node="1>1|3|3|3" />
+        <i3dMapping id="playerLeftHandTarget" node="1>1|3|4|0" />
         <i3dMapping id="steeringWheel" node="1>1|3|4|1" />
         <i3dMapping id="wiperBack" node="1>1|3|5|0" />
         <i3dMapping id="wiperFrontMiddleArm01Rot" node="1>1|3|5|1" />
         <i3dMapping id="wiperFrontMiddleArm01" node="1>1|3|5|1|0" />
         <i3dMapping id="wiperLeft" node="1>1|3|5|2" />
         <i3dMapping id="wiperRight" node="1>1|3|5|3" />
+        <i3dMapping id="cameraRaycastNode1" node="1>1|4|0" />
+        <i3dMapping id="cameraRaycastNode2" node="1>1|4|1" />
+        <i3dMapping id="cameraRaycastNode3" node="1>1|4|2" />
+        <i3dMapping id="outdoorCameraTarget" node="1>1|4|3" />
+        <i3dMapping id="outdoorCamera1" node="1>1|4|3|0" />
+        <i3dMapping id="shadowFocusBox" node="1>1|4|4" />
+        <i3dMapping id="indoorCamera1" node="1>1|4|5" />
         <i3dMapping id="motorConfiguration_decal" node="1>1|5|0" />
         <i3dMapping id="exitPoint" node="1>1|6" />
         <i3dMapping id="exactFillRootNodeAdditives" node="1>1|7|0" />
@@ -811,6 +829,7 @@
         <i3dMapping id="pipeArm01LongHydraulicPunch" node="1>1|10|0|2|6|1" />
         <i3dMapping id="pipeArm01Long" node="1>1|10|0|2|7|0" />
         <i3dMapping id="pipeArm01LongHydraulicRef" node="1>1|10|0|2|7|0|0" />
+        <i3dMapping id="pipeArm02Long" node="1>1|10|0|2|7|0|1" />
         <i3dMapping id="pipeEffect3Long" node="1>1|10|0|2|7|0|1|0|0" />
         <i3dMapping id="pipeRaycastNodeLong" node="1>1|10|0|2|7|0|1|0|1" />
         <i3dMapping id="pipeLightOrientationArm01LongRef" node="1>1|10|0|2|7|0|1|1" />
