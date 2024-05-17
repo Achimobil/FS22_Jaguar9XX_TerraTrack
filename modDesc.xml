@@ -15,10 +15,10 @@
 	
 	<multiplayer supported="true"/>
 	
-	<iconFilename>jaguar960TT.dds</iconFilename>
+	<iconFilename>icon_stoneQuarry.dds</iconFilename>
 	
 	<storeItems>
-		<storeItem xmlFilename="stoneQuarry.xml"/>
+		<storeItem xmlFilename="jaguar960TT.xml"/>
 	</storeItems>
 	
 	<brands>
