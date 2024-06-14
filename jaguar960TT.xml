@@ -843,10 +843,9 @@
         <i3dMapping id="colPartShort02" node="1>1|10|0|3|1|1" />
         <i3dMapping id="colPartShort03" node="1>1|10|0|3|1|2" />
         <i3dMapping id="colPartShort04" node="1>1|10|0|3|1|3" />
-        <i3dMapping id="worklightPipe2Short_static" node="1>1|10|0|3|2|0|1" />
-        <i3dMapping id="worklightPipeShort_static" node="1>1|10|0|3|2|0|2" />
         <i3dMapping id="pipeArm01ShortHydraulic" node="1>1|10|0|3|3" />
         <i3dMapping id="pipeArm01ShortHydraulicPunch" node="1>1|10|0|3|3|1" />
+        <i3dMapping id="pipeArm01ShortRot" node="1>1|10|0|3|4" />
         <i3dMapping id="pipeArm01Short" node="1>1|10|0|3|4|0" />
         <i3dMapping id="pipeArm01ShortHydraulicRef" node="1>1|10|0|3|4|0|0" />
         <i3dMapping id="pipeArm02Short" node="1>1|10|0|3|4|0|1" />
@@ -859,6 +858,9 @@
         <i3dMapping id="pipeHydraulicRef" node="1>1|10|0|3|6" />
         <i3dMapping id="pipeLightOrientationArm01Short" node="1>1|10|0|3|7" />
         <i3dMapping id="pipeLightOrientationArm02Short" node="1>1|10|0|3|8" />
+        <i3dMapping id="spring01DecalShort" node="1>1|10|0|3|11" />
+        <i3dMapping id="worklightPipe2Short_static" node="1>1|10|0|3|12|1" />
+        <i3dMapping id="worklightPipeShort_static" node="1>1|10|0|3|12|2" />
         <i3dMapping id="exhaustParticle1" node="1>1|11|0" />
         <i3dMapping id="cameraDisplay" node="1>1|13|0" />
         <i3dMapping id="exterior_02_vis" node="1>1|13|4" />
