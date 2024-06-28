@@ -396,9 +396,9 @@
             <TransformGroup name="sharedLights" nodeId="243">
               <Shape shapeId="4" name="extinguisher" translation="0.903364 1.83768 1.26944" rotation="-90 0 0" referenceId="11" clipDistance="50" nodeId="247" materialIds="244" castsShadows="true" receiveShadows="true"/>
               <Shape shapeId="5" name="yellowRound_02" translation="-1.51345 0.318358 0.318991" rotation="0 0 90" referenceId="14" clipDistance="75" nodeId="251" materialIds="248" castsShadows="true" receiveShadows="true"/>
-              <Shape shapeId="5" name="yellowRound_02" translation="0.836965 1.18873 2.72742" rotation="0 0 -90" referenceId="14" clipDistance="75" nodeId="252" materialIds="248" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="5" name="yellowRound_02_1" translation="0.836965 1.18873 2.72742" rotation="0 0 -90" referenceId="14" clipDistance="75" nodeId="252" materialIds="248" castsShadows="true" receiveShadows="true"/>
               <Shape shapeId="6" name="redRound_02" translation="-1.04766 0.631417 -2.77463" rotation="-95.8215 27.9021 0.094711" referenceId="15" clipDistance="75" nodeId="255" materialIds="248" castsShadows="true" receiveShadows="true"/>
-              <Shape shapeId="6" name="redRound_02" translation="1.06641 0.631377 -2.77497" rotation="-97.4103 -26.9461 5.44851" referenceId="15" clipDistance="75" nodeId="256" materialIds="248" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="6" name="redRound_02_1" translation="1.06641 0.631377 -2.77497" rotation="-97.4103 -26.9461 5.44851" referenceId="15" clipDistance="75" nodeId="256" materialIds="248" castsShadows="true" receiveShadows="true"/>
             </TransformGroup>
             <TransformGroup name="staticLights" nodeId="257">
               <Shape shapeId="7" name="reverseLightStatic" translation="0.000317 1.91929 -2.90125" clipDistance="75" nodeId="258" materialIds="38" castsShadows="true" receiveShadows="true" decalLayer="1"/>
