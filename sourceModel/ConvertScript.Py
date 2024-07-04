@@ -102,7 +102,7 @@ def process_files(fileNode, fileIdToName):
         name = name.replace('$data', 'C:/Program Files (x86)/Farming Simulator 2022/data')
     if name.endswith('.png'):
         name = name.replace('.png', '.dds')
-    
+    #name = name.replace('/','\\')
     fileIdToName[fileId] = name
         
         
@@ -116,11 +116,29 @@ def process_material(materialNode, materialIdToName, fileIdToName):
     if mat is None:
         # create material
         mat = bpy.data.materials.new(name=name)
-        mat.use_nodes = True
+    mat.use_nodes = True
     
     # die anderen einstellungen scheinen komplet zu sein, schau ich später nach. erst mal zuweisen können
     materialId = materialNode.get('materialId')
     materialIdToName[materialId] = name
+    
+    # add shader and parameter to custom properties
+    customShaderId = materialNode.get('customShaderId')
+    if customShaderId != None and fileIdToName[customShaderId] != None:
+        mat['customShader'] = fileIdToName[customShaderId]
+        
+    customShaderVariation = materialNode.get('customShaderVariation')
+    if customShaderVariation != None:
+        mat['customShaderVariation'] = customShaderVariation
+        
+    alphaBlending = materialNode.get('alphaBlending')
+    if alphaBlending != None and alphaBlending == "true":
+        mat.blend_method = "BLEND"
+    else:
+        mat.blend_method = "OPAQUE"
+        
+    for CustomParameter in materialNode.findall('CustomParameter'):
+        mat["customParameter_" + CustomParameter.get('name')] = CustomParameter.get('value')
     
     for texture in materialNode.findall('Texture'):
         fileId = texture.get('fileId');
@@ -195,6 +213,83 @@ def process_material(materialNode, materialIdToName, fileIdToName):
             link = mat.node_tree.links.new(normalMap_node.outputs[0], mat.node_tree.nodes[0].inputs["Normal"])                 
         
 
+def parse_node_attributes(scene_element):
+    
+    name = scene_element.get('name')
+    print(name)
+    object = bpy.data.objects.get(name)
+    
+    if object is not None:
+        kinematic = scene_element.get('kinematic')
+        if kinematic != None and kinematic == "true":
+            object['I3D_kinematic'] = True
+        else:
+            object['I3D_kinematic'] = False
+            
+        static = scene_element.get('static')
+        if static != None and static == "true":
+            object['I3D_static'] = True
+        else:
+            object['I3D_static'] = False
+            
+        dynamic = scene_element.get('dynamic')
+        if dynamic != None and dynamic == "true":
+            object['I3D_dynamic'] = True
+        else:
+            object['I3D_dynamic'] = False
+            
+        compound = scene_element.get('compound')
+        if compound != None and compound == "true":
+            object['I3D_compound'] = True
+        else:
+            object['I3D_compound'] = False
+            
+        compoundChild = scene_element.get('compoundChild')
+        if compoundChild != None and compoundChild == "true":
+            object['I3D_compoundChild'] = True
+        else:
+            object['I3D_compoundChild'] = False
+            
+        collisionMask = scene_element.get('collisionMask')
+        if collisionMask != None:
+            object['I3D_collisionMask'] = collisionMask
+        else:
+            object['I3D_collisionMask'] = 255
+            
+        clipDistance = scene_element.get('clipDistance')
+        if clipDistance != None:
+            object['I3D_clipDistance'] = float(clipDistance)
+        else:
+            object['I3D_clipDistance'] = 0
+            
+        castsShadows = scene_element.get('castsShadows')
+        if castsShadows != None and castsShadows == "true":
+            object['I3D_castsShadows'] = True
+        else:
+            object['I3D_castsShadows'] = False
+            
+        receiveShadows = scene_element.get('receiveShadows')
+        if receiveShadows != None and receiveShadows == "true":
+            object['I3D_receiveShadows'] = True
+        else:
+            object['I3D_receiveShadows'] = False
+            
+        nonRenderable = scene_element.get('nonRenderable')
+        if nonRenderable != None and nonRenderable == "true":
+            object['I3D_nonRenderable'] = True
+        else:
+            object['I3D_nonRenderable'] = False
+            
+        trigger = scene_element.get('trigger')
+        if trigger != None and trigger == "true":
+            object['I3D_trigger'] = True
+        else:
+            object['I3D_trigger'] = False
+        
+    # call recursive
+    for child_elem in scene_element.findall('*'):
+        parse_node_attributes(child_elem)
+
 
 xml_file_path = 'D:/Achim/source/repos/FS22_Jaguar9XX_TerraTrack/sourceModel/original.i3d'
 modelTree = ET.parse(xml_file_path)
@@ -229,6 +324,12 @@ root = tree.getroot()
 # Hauptskript: Durchlaufe alle Objekte in der Szene
 for obj in root.findall('element'):
     process_object(obj, materialIdToName)
+
+
+print("");
+print("parse shape parameter");
+for obj in modelRoot.findall('Scene/Shape'):
+    parse_node_attributes(obj)
 
 print("");
 print("All done.")
