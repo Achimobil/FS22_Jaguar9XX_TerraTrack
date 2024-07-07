@@ -218,7 +218,7 @@ def parse_node_attributes(scene_element):
     name = scene_element.get('name')
     print(name)
     object = bpy.data.objects.get(name)
-    
+
     if object is not None:
         kinematic = scene_element.get('kinematic')
         if kinematic != None and kinematic == "true":
@@ -285,6 +285,36 @@ def parse_node_attributes(scene_element):
             object['I3D_trigger'] = True
         else:
             object['I3D_trigger'] = False
+        
+            
+        castShadowMap = scene_element.get('castShadowMap')
+        print(object.type)
+        if object.type == 'LIGHT':
+            # farbe vom Licht
+            color = scene_element.get('color')
+            if color != None:
+                colorArray = color.split()
+                object.data.color.r = float(colorArray[0]);
+                object.data.color.g = float(colorArray[1]);
+                object.data.color.b = float(colorArray[2]);
+            
+            if castShadowMap != None and castShadowMap == "true":
+                object.data.use_shadow = True;
+            else:
+                object.data.use_shadow  = False
+            
+            range = scene_element.get('range')
+            if range != None:
+                object.data.cutoff_distance = float(range)
+            
+            coneAngle = scene_element.get('coneAngle')
+            if coneAngle != None:
+                object.data.spot_size = math.radians(float(coneAngle))
+            
+            dropOff = scene_element.get('dropOff')
+            if dropOff != None :
+                object.data.spot_blend = float(dropOff)/5.0
+        
         
     # call recursive
     for child_elem in scene_element.findall('*'):
