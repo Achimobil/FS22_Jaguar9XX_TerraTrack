@@ -1,487 +1,487 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <ExportTest>
-    <element elementName="jaguar960TT_main_component1" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998">
-        <element elementName="jaguar960TT_vis" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="22" diff="gen_singleColorTexture_0_4286479998">
-            <element elementName="wheels" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="leftBackWheel01" x="1.291000" y="0.691710" z="2.823450" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                <element elementName="leftBackWheel02" x="1.291000" y="0.691707" z="1.044350" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                <element elementName="rightBackWheel01" x="-1.291000" y="0.691710" z="2.823450" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                <element elementName="rightBackWheel02" x="-1.291000" y="0.691707" z="1.044350" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                <element elementName="crawlerLeftLinkNode" x="1.291000" y="0.691707" z="1.044350" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                <element elementName="crawlerRightLinkNode" x="-1.291000" y="0.691707" z="1.044350" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+    <element elementName="jaguar960TT_main_component1" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42">
+        <element elementName="jaguar960TT_vis" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="22">
+            <element elementName="wheels" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="leftBackWheel01" x="1.291000" y="0.691710" z="2.823450" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                <element elementName="leftBackWheel02" x="1.291000" y="0.691707" z="1.044350" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                <element elementName="rightBackWheel01" x="-1.291000" y="0.691710" z="2.823450" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                <element elementName="rightBackWheel02" x="-1.291000" y="0.691707" z="1.044350" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                <element elementName="crawlerLeftLinkNode" x="1.291000" y="0.691707" z="1.044350" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                <element elementName="crawlerRightLinkNode" x="-1.291000" y="0.691707" z="1.044350" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
             </element>
-            <element elementName="cameras" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="outdoorCameraTarget" x="0.000000" y="2.377288" z="1.200000" rx="-0.418879" ry="3.141593" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="outdoorCamera1" x="-12.813712" y="0.341478" z="5.570574" rx="2.120169" ry="0.974809" rz="2.425392" type="CAMERA"/>
+            <element elementName="cameras" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="outdoorCameraTarget" x="0.000000" y="2.377288" z="1.200000" rx="2.722714" ry="-0.000000" rz="3.141593" type="TRANSFORM_GROUP">
+                    <element elementName="outdoorCamera1" x="1.331968" y="5.117261" z="6.056944" rx="-0.610834" ry="0.515228" rz="0.000036" type="CAMERA"/>
                 </element>
-                <element elementName="indoorCamera1" x="0.000000" y="3.515028" z="2.748130" rx="-0.471239" ry="3.141593" rz="0.000000" type="CAMERA"/>
-                <element elementName="cameraRaycastNode1" x="0.000000" y="2.065348" z="4.290730" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                <element elementName="cameraRaycastNode2" x="0.000000" y="4.156338" z="2.179500" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                <element elementName="cameraRaycastNode3" x="0.000000" y="2.901528" z="-3.618400" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                <element elementName="shadowFocusBox" x="0.000000" y="3.054348" z="3.296540" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
+                <element elementName="indoorCamera1" x="0.000000" y="3.515028" z="2.748130" rx="2.670354" ry="-0.000000" rz="3.141593" type="CAMERA"/>
+                <element elementName="cameraRaycastNode1" x="0.000000" y="2.065348" z="4.290730" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                <element elementName="cameraRaycastNode2" x="0.000000" y="4.156338" z="2.179500" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                <element elementName="cameraRaycastNode3" x="0.000000" y="2.901528" z="-3.618400" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                <element elementName="shadowFocusBox" x="0.000000" y="3.054348" z="3.296540" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
             </element>
-            <element elementName="lights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="sharedLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="extinguisher" x="0.903364" y="2.214968" z="1.269440" rx="-1.570796" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="244" diff="gen_singleColorTexture_0_4286545791"/>
-                    <element elementName="yellowRound_02" x="-1.513450" y="0.695646" z="0.318991" rx="0.000000" ry="0.000000" rz="1.570796" type="SHAPE" materialIndex="248" diff="gen_singleColorTexture_0_4286545791"/>
-                    <element elementName="yellowRound_02_1" x="0.836965" y="1.566018" z="2.727420" rx="0.000000" ry="0.000000" rz="-1.570796" type="SHAPE" materialIndex="248" diff="gen_singleColorTexture_0_4286545791"/>
-                    <element elementName="redRound_02" x="-1.047660" y="1.008705" z="-2.774630" rx="-1.672401" ry="0.486984" rz="0.001653" type="SHAPE" materialIndex="248" diff="gen_singleColorTexture_0_4286545791"/>
-                    <element elementName="redRound_02_1" x="1.066410" y="1.008665" z="-2.774970" rx="-1.700130" ry="-0.470298" rz="0.095094" type="SHAPE" materialIndex="248" diff="gen_singleColorTexture_0_4286545791"/>
+            <element elementName="lights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="sharedLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="extinguisher" x="0.903364" y="2.214968" z="1.269440" rx="-1.570796" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="244"/>
+                    <element elementName="yellowRound_02" x="-1.513450" y="0.695646" z="0.318991" rx="0.000000" ry="-0.000000" rz="1.570796" type="SHAPE" materialIndex="248"/>
+                    <element elementName="yellowRound_02" x="0.836965" y="1.566018" z="2.727420" rx="0.000000" ry="0.000000" rz="-1.570796" type="SHAPE" materialIndex="248"/>
+                    <element elementName="redRound_02" x="-1.047660" y="1.008705" z="-2.774630" rx="-1.672401" ry="0.486984" rz="0.001653" type="SHAPE" materialIndex="248"/>
+                    <element elementName="redRound_02" x="1.066410" y="1.008665" z="-2.774970" rx="-1.700131" ry="-0.470298" rz="0.095094" type="SHAPE" materialIndex="248"/>
                 </element>
-                <element elementName="staticLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="reverseLightStatic" x="0.000317" y="2.296578" z="-2.901250" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="38" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                    <element elementName="backlightStatic" x="0.004465" y="1.618818" z="-2.857040" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="38" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                    <element elementName="turnlightLeftStatic" x="0.004465" y="1.618818" z="-2.857040" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="38" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                    <element elementName="turnlightRightStatic" x="0.004465" y="1.618818" z="-2.857040" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="38" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                    <element elementName="worklightFrontStatic01" x="0.006098" y="3.739738" z="4.110100" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="38" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                    <element elementName="worklightFrontStatic02" x="0.003625" y="2.677908" z="3.670330" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="33" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                    <element elementName="worklightFrontStatic03" x="0.008348" y="3.748968" z="3.881320" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="39" diff="gen_singleColorTexture_0_4286479998"/>
-                    <element elementName="frontlightStatic" x="-0.000168" y="2.112328" z="3.180640" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="38" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                    <element elementName="frontlightStatic1" x="-0.000168" y="2.112328" z="3.180640" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="38" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                    <element elementName="turnlightLeftStatic1" x="-0.000168" y="2.112328" z="3.180640" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="38" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                    <element elementName="turnlightRightStatic1" x="-0.000168" y="2.112328" z="3.180640" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="38" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                    <element elementName="vis" x="-0.017962" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                        <element elementName="smallLights_frontTop_inside_static" x="0.006098" y="3.741858" z="4.103680" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="23" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="smallLights_frontTop_frame_static" x="0.006098" y="3.752688" z="4.093460" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="23" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="light_frontTop_inside_static" x="0.008451" y="3.748778" z="3.878430" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="24" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="light_frontTop_frame_static" x="0.008652" y="3.759788" z="3.844110" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="24" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="light_frontMain_inside_static" x="0.003835" y="2.678308" z="3.600830" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="32" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="light_frontMain_frame_static" x="0.004126" y="2.663528" z="3.609140" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="34" diff="gen_singleColorTexture_0_4286479998"/>
+                <element elementName="staticLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="reverseLightStatic" x="0.000317" y="2.296578" z="-2.901250" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
+                    <element elementName="backlightStatic" x="0.004465" y="1.618818" z="-2.857040" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
+                    <element elementName="turnlightLeftStatic" x="0.004465" y="1.618818" z="-2.857040" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
+                    <element elementName="turnlightRightStatic" x="0.004465" y="1.618818" z="-2.857040" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
+                    <element elementName="worklightFrontStatic01" x="0.006098" y="3.739738" z="4.110100" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
+                    <element elementName="worklightFrontStatic02" x="0.003625" y="2.677908" z="3.670330" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="33"/>
+                    <element elementName="worklightFrontStatic03" x="0.008348" y="3.748968" z="3.881320" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="39"/>
+                    <element elementName="frontlightStatic" x="-0.000168" y="2.112328" z="3.180640" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
+                    <element elementName="frontlightStatic1" x="-0.000168" y="2.112328" z="3.180640" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
+                    <element elementName="turnlightLeftStatic1" x="-0.000168" y="2.112328" z="3.180640" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
+                    <element elementName="turnlightRightStatic1" x="-0.000168" y="2.112328" z="3.180640" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
+                    <element elementName="vis" x="-0.017962" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                        <element elementName="smallLights_frontTop_inside_static" x="0.006098" y="3.741858" z="4.103680" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="23"/>
+                        <element elementName="smallLights_frontTop_frame_static" x="0.006098" y="3.752688" z="4.093460" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="23"/>
+                        <element elementName="light_frontTop_inside_static" x="0.008451" y="3.748778" z="3.878430" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="24"/>
+                        <element elementName="light_frontTop_frame_static" x="0.008652" y="3.759788" z="3.844110" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="24"/>
+                        <element elementName="light_frontMain_inside_static" x="0.003835" y="2.678308" z="3.600830" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="32"/>
+                        <element elementName="light_frontMain_frame_static" x="0.004126" y="2.663528" z="3.609140" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="34"/>
                     </element>
-                    <element elementName="reverseLightStatic1" x="0.004465" y="1.618818" z="-2.857040" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="38" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                    <element elementName="licensePlateLightStatic" x="0.003773" y="1.618038" z="-3.056270" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="38" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
+                    <element elementName="reverseLightStatic1" x="0.004465" y="1.618818" z="-2.857040" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
+                    <element elementName="licensePlateLightStatic" x="0.003773" y="1.618038" z="-3.056270" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
                 </element>
-                <element elementName="defaultLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="frontLightLow" x="0.000000" y="2.107058" z="3.638150" rx="2.879793" ry="-0.000000" rz="3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="20.000000"/>
-                    <element elementName="highBeamLow" x="0.000000" y="2.107058" z="3.638150" rx="-0.174533" ry="3.141593" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="30.000000"/>
-                    <element elementName="frontLightHigh" x="-1.104000" y="2.102938" z="3.311240" rx="2.879793" ry="0.139626" rz="3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000">
-                        <element elementName="frontLightHigh1" x="1.104200" y="2.102938" z="3.311240" rx="0.010389" ry="0.269496" rz="0.074079" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000"/>
+                <element elementName="defaultLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="frontLightLow" x="0.000000" y="2.107058" z="3.638150" rx="2.879793" ry="-0.000000" rz="-3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="20.000000"/>
+                    <element elementName="highBeamLow" x="0.000000" y="2.107058" z="3.638150" rx="2.967060" ry="-0.000000" rz="3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="30.000000"/>
+                    <element elementName="frontLightHigh" x="-1.104000" y="2.102938" z="3.311240" rx="2.879793" ry="0.139626" rz="-3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000">
+                        <element elementName="frontLightHigh1" x="1.104200" y="2.102938" z="3.311240" rx="2.880135" ry="-0.139627" rz="-3.141592" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000"/>
                     </element>
-                    <element elementName="highBeamHigh" x="1.104000" y="2.102938" z="3.311240" rx="2.967060" ry="-0.087266" rz="3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="60.000000">
-                        <element elementName="highBeamHigh1" x="-1.104002" y="2.102938" z="3.311240" rx="0.002637" ry="-0.171855" rz="-0.030609" type="LIGHT_SOURCE" lightType="SPOT" energie="60.000000"/>
+                    <element elementName="highBeamHigh" x="1.104000" y="2.102938" z="3.311240" rx="2.967060" ry="-0.087266" rz="-3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="60.000000">
+                        <element elementName="highBeamHigh1" x="-1.104002" y="2.102938" z="3.311240" rx="2.967060" ry="0.087266" rz="-3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="60.000000"/>
                     </element>
                     <element elementName="licensePlateLightHigh" x="0.327136" y="1.617118" z="-3.053510" rx="0.000000" ry="0.872665" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="0.500000">
-                        <element elementName="licensePlateLightHigh1" x="-0.327000" y="1.617118" z="-3.053509" rx="0.000000" ry="4.537857" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="0.500000"/>
+                        <element elementName="licensePlateLightHigh1" x="-0.327000" y="1.617118" z="-3.053509" rx="0.000000" ry="-0.872664" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="0.500000"/>
                     </element>
                 </element>
-                <element elementName="workLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="workLightFrontLow" x="0.000000" y="3.688118" z="4.226590" rx="-0.349066" ry="3.141593" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="20.000000"/>
-                    <element elementName="workLightFrontHigh1" x="0.721343" y="3.748488" z="4.063560" rx="-0.523599" ry="-2.617994" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000">
-                        <element elementName="workLightFrontHigh2" x="1.455084" y="3.777758" z="3.590343" rx="0.333473" ry="0.848062" rz="0.713724" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000"/>
-                        <element elementName="workLightFrontHigh3" x="-1.454999" y="3.777758" z="3.590344" rx="1.760915" ry="-0.848062" rz="-2.427875" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000"/>
-                        <element elementName="workLightFrontHigh4" x="-0.721004" y="3.748488" z="4.063562" rx="0.333473" ry="-0.848062" rz="-0.713724" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000"/>
+                <element elementName="workLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="workLightFrontLow" x="0.000000" y="3.688118" z="4.226590" rx="2.792527" ry="-0.000000" rz="3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="20.000000"/>
+                    <element elementName="workLightFrontHigh1" x="0.721343" y="3.748488" z="4.063560" rx="2.617994" ry="-0.523599" rz="3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000">
+                        <element elementName="workLightFrontHigh2" x="1.455084" y="3.777758" z="3.590343" rx="-0.523599" ry="-1.570796" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000"/>
+                        <element elementName="workLightFrontHigh3" x="-1.454999" y="3.777758" z="3.590344" rx="-0.523611" ry="1.570796" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000"/>
+                        <element elementName="workLightFrontHigh4" x="-0.721004" y="3.748488" z="4.063562" rx="2.617994" ry="0.523599" rz="3.141592" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000"/>
                     </element>
                     <element elementName="workLightBackHigh1" x="0.644661" y="2.295568" z="-2.914780" rx="-0.349066" ry="-0.349066" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000">
-                        <element elementName="workLightBackHigh2" x="-0.644995" y="2.295568" z="-2.914778" rx="0.094488" ry="0.648540" rz="0.279478" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000"/>
+                        <element elementName="workLightBackHigh2" x="-0.644995" y="2.295568" z="-2.914778" rx="-0.349066" ry="0.349067" rz="-0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000"/>
                     </element>
                 </element>
-                <element elementName="backLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="backLightsHigh1" x="-0.846189" y="1.618948" z="-2.916060" rx="-0.349066" ry="0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="2.500000">
-                        <element elementName="backLightsHigh2" x="0.856491" y="1.618948" z="-2.916060" rx="0.000000" ry="0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="2.500000"/>
+                <element elementName="backLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="backLightsHigh1" x="-0.846189" y="1.618948" z="-2.916060" rx="-0.349066" ry="-0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="2.500000">
+                        <element elementName="backLightsHigh2" x="0.856491" y="1.618948" z="-2.916060" rx="-0.349066" ry="-0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="2.500000"/>
                     </element>
                 </element>
-                <element elementName="turnLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="turnLightLeftFront" x="1.424690" y="2.119698" z="3.088800" rx="-0.349066" ry="3.141593" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="4.000000">
-                        <element elementName="turnLightLeftBack" x="1.063838" y="1.618679" z="-2.811777" rx="2.443461" ry="-0.000000" rz="-3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="4.000000"/>
+                <element elementName="turnLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="turnLightLeftFront" x="1.424690" y="2.119698" z="3.088800" rx="2.792527" ry="-0.000000" rz="3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="4.000000">
+                        <element elementName="turnLightLeftBack" x="1.063838" y="1.618679" z="-2.811777" rx="-0.349066" ry="0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="4.000000"/>
                     </element>
-                    <element elementName="turnLightRightFront" x="-1.425030" y="2.119228" z="3.087310" rx="-0.349066" ry="3.141593" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="4.000000">
-                        <element elementName="turnLightRightBack" x="-1.054913" y="1.618686" z="-2.811507" rx="2.443461" ry="-0.000000" rz="-3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="4.000000"/>
-                    </element>
-                </element>
-                <element elementName="beaconLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="beaconLight01" x="0.909120" y="3.827308" z="3.830650" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="beaconLight02" x="-0.891723" y="3.840378" z="3.830650" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                </element>
-                <element elementName="reverseLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="reverseLightHigh1" x="-0.846189" y="1.618948" z="-2.916060" rx="-0.349066" ry="0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="2.500000">
-                        <element elementName="reverseLightHigh2" x="0.856491" y="1.618948" z="-2.916060" rx="0.000000" ry="0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="2.500000"/>
+                    <element elementName="turnLightRightFront" x="-1.425030" y="2.119228" z="3.087310" rx="2.792527" ry="-0.000000" rz="3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="4.000000">
+                        <element elementName="turnLightRightBack" x="-1.054913" y="1.618686" z="-2.811507" rx="-0.349066" ry="0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="4.000000"/>
                     </element>
                 </element>
-            </element>
-            <element elementName="axisJoint" x="0.002293" y="1.126420" z="-1.515870" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-            <element elementName="exitPoint" x="2.684870" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-            <element elementName="attacherJoints" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="trailers" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="trailerAttacherJointBack" x="0.000000" y="1.174943" z="-3.064040" rx="0.000000" ry="1.570796" rz="0.000000" type="TRANSFORM_GROUP"/>
+                <element elementName="beaconLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="beaconLight01" x="0.909120" y="3.827308" z="3.830650" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="beaconLight02" x="-0.891723" y="3.840378" z="3.830650" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
                 </element>
-                <element elementName="connectionHoses" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="hydraulic01_out" x="1.226670" y="1.988628" z="3.159220" rx="3.012126" ry="-0.526636" rz="3.141593" type="TRANSFORM_GROUP"/>
-                    <element elementName="hydraulic02_in" x="1.149060" y="1.971048" z="3.197770" rx="-0.129466" ry="3.668228" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="electric_in" x="1.012410" y="1.949018" z="3.285770" rx="0.000000" ry="3.668228" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="electric_back" x="-0.265645" y="1.064697" z="-2.936400" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="airDoubleStorage" x="-0.311163" y="1.266021" z="-2.984300" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="airDoubleControl" x="0.312753" y="1.266021" z="-2.984300" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                </element>
-                <element elementName="attacherJointFrontRot" x="0.000000" y="1.255355" z="2.750610" rx="-0.082177" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="attacherJointFront" x="0.000000" y="1.349824" z="3.897606" rx="1.570796" ry="-1.170158" rz="-1.570796" type="TRANSFORM_GROUP"/>
-                </element>
-                <element elementName="feederHouse" x="0.000000" y="1.255355" z="2.750610" rx="-0.082177" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="feederHouseHydraulicRef" x="0.000000" y="0.602495" z="3.039433" rx="0.254246" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="visuals" x="0.000000" y="1.255355" z="2.750610" rx="-0.017848" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                        <element elementName="screws_decal1" x="0.000000" y="1.255355" z="2.750610" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="5" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryDecals_diffuse.png"/>
-                        <element elementName="exteriorShared_decals" x="0.000000" y="1.255355" z="2.750610" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="8" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryStickers_diffuse.png"/>
-                        <element elementName="exterior_decals" x="0.000000" y="1.255355" z="2.750610" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="28" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960ExteriorDecals_diffuse.png"/>
-                        <element elementName="drum02" x="-0.016375" y="0.749532" z="3.530855" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                        <element elementName="drum01" x="-0.016985" y="1.043115" z="3.632325" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                        <element elementName="frontSprings_decal" x="0.000000" y="1.255355" z="2.750610" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="20" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960DecalsSprings_diffuse.png"/>
+                <element elementName="reverseLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="reverseLightHigh1" x="-0.846189" y="1.618948" z="-2.916060" rx="-0.349066" ry="-0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="2.500000">
+                        <element elementName="reverseLightHigh2" x="0.856491" y="1.618948" z="-2.916060" rx="-0.349066" ry="-0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="2.500000"/>
                     </element>
-                    <element elementName="pto01Rot" x="0.700821" y="1.329559" z="2.279946" rx="0.446520" ry="0.015719" rz="0.001295" type="TRANSFORM_GROUP">
-                        <element elementName="pto01" x="0.700821" y="1.329559" z="2.279946" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    </element>
-                    <element elementName="pto02Rot" x="0.707596" y="1.322066" z="2.167635" rx="0.553439" ry="-0.034980" rz="-0.002882" type="TRANSFORM_GROUP">
-                        <element elementName="pto02" x="0.707596" y="1.322066" z="2.167635" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    </element>
-                    <element elementName="pto03Rot" x="0.710279" y="1.001515" z="3.075217" rx="2.589597" ry="0.000217" rz="3.141575" type="TRANSFORM_GROUP">
-                        <element elementName="pto03" x="0.710279" y="1.001515" z="3.075217" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    </element>
-                    <element elementName="feederHouse2" x="0.000000" y="1.107981" z="3.517492" rx="0.082170" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="additionalPartsFront1" x="0.000000" y="-0.000022" z="0.000004" rx="0.082170" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="screws_decal11" x="-1.429640" y="0.724021" z="2.691606" rx="0.082170" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="5" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryDecals_diffuse.png"/>
-                    <element elementName="screws_decal12" x="0.000000" y="0.377269" z="0.000005" rx="0.082170" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="5" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryDecals_diffuse.png"/>
-                    <element elementName="feederHouseJoint" x="0.000000" y="1.255355" z="2.750610" rx="0.082170" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
                 </element>
             </element>
-            <element elementName="cabin" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="steeringBase" x="-0.011488" y="2.956868" z="3.278860" rx="-0.407424" ry="-0.000059" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="steeringWheel" x="-0.011488" y="2.956868" z="3.278860" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="47" diff="gen_singleColorTexture_0_4286479998">
-                        <element elementName="playerLeftHandTarget" x="0.133333" y="2.992044" z="3.199588" rx="-0.240271" ry="-0.296317" rz="-2.428730" type="TRANSFORM_GROUP"/>
-                        <element elementName="interior_decals" x="-0.229915" y="3.129255" z="3.708094" rx="1.570796" ry="-0.000000" rz="-3.141593" type="SHAPE" materialIndex="31" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960InteriorDecals_diffuse.png"/>
+            <element elementName="axisJoint" x="0.002293" y="1.126420" z="-1.515870" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+            <element elementName="exitPoint" x="2.684870" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+            <element elementName="attacherJoints" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="trailers" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="trailerAttacherJointBack" x="0.000000" y="1.174943" z="-3.064040" rx="-0.000000" ry="1.570796" rz="0.000000" type="TRANSFORM_GROUP"/>
+                </element>
+                <element elementName="connectionHoses" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="hydraulic01_out" x="1.226670" y="1.988628" z="3.159220" rx="3.012124" ry="-0.526636" rz="-3.141593" type="TRANSFORM_GROUP"/>
+                    <element elementName="hydraulic02_in" x="1.149060" y="1.971048" z="3.197770" rx="3.012126" ry="-0.526636" rz="3.141593" type="TRANSFORM_GROUP"/>
+                    <element elementName="electric_in" x="1.012410" y="1.949018" z="3.285770" rx="3.141593" ry="-0.526636" rz="3.141593" type="TRANSFORM_GROUP"/>
+                    <element elementName="electric_back" x="-0.265645" y="1.064697" z="-2.936400" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="airDoubleStorage" x="-0.311163" y="1.266021" z="-2.984300" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="airDoubleControl" x="0.312753" y="1.266021" z="-2.984300" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                </element>
+                <element elementName="attacherJointFrontRot" x="0.000000" y="1.255355" z="2.750610" rx="-0.082177" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="attacherJointFront" x="0.000000" y="1.349824" z="3.897606" rx="1.570796" ry="-1.252334" rz="-1.570796" type="TRANSFORM_GROUP"/>
+                </element>
+                <element elementName="feederHouse" x="0.000000" y="1.255355" z="2.750610" rx="-0.082177" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="feederHouseHydraulicRef" x="0.000000" y="0.602495" z="3.039433" rx="0.172069" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="visuals" x="0.000000" y="1.255355" z="2.750610" rx="-0.100025" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                        <element elementName="screws_decal1" x="0.000000" y="1.255355" z="2.750610" rx="-0.100025" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="5"/>
+                        <element elementName="exteriorShared_decals" x="0.000000" y="1.255355" z="2.750610" rx="-0.100025" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="8"/>
+                        <element elementName="exterior_decals" x="0.000000" y="1.255355" z="2.750610" rx="-0.100025" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="28"/>
+                        <element elementName="drum02" x="-0.016375" y="0.749532" z="3.530855" rx="-0.100025" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                        <element elementName="drum01" x="-0.016985" y="1.043115" z="3.632325" rx="-0.100025" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                        <element elementName="frontSprings_decal" x="0.000000" y="1.255355" z="2.750610" rx="-0.100025" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="20"/>
+                    </element>
+                    <element elementName="pto01Rot" x="0.700821" y="1.329559" z="2.279946" rx="0.364333" ry="0.015772" rz="-0.000000" type="TRANSFORM_GROUP">
+                        <element elementName="pto01" x="0.700821" y="1.329559" z="2.279946" rx="0.364333" ry="0.015772" rz="-0.000000" type="TRANSFORM_GROUP"/>
+                    </element>
+                    <element elementName="pto02Rot" x="0.707596" y="1.322066" z="2.167635" rx="0.471212" ry="-0.035099" rz="0.000000" type="TRANSFORM_GROUP">
+                        <element elementName="pto02" x="0.707596" y="1.322066" z="2.167635" rx="0.471212" ry="-0.035099" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    </element>
+                    <element elementName="pto03Rot" x="0.710279" y="1.001515" z="3.075217" rx="2.671774" ry="0.000218" rz="-3.141592" type="TRANSFORM_GROUP">
+                        <element elementName="pto03" x="0.710279" y="1.001515" z="3.075217" rx="2.671774" ry="0.000218" rz="-3.141592" type="TRANSFORM_GROUP"/>
+                    </element>
+                    <element elementName="feederHouse2" x="0.000000" y="1.107981" z="3.517492" rx="-0.000007" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="additionalPartsFront1" x="0.000000" y="-0.000022" z="0.000004" rx="-0.000007" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="screws_decal11" x="-1.429640" y="0.724021" z="2.691606" rx="-0.000007" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="5"/>
+                    <element elementName="screws_decal12" x="0.000000" y="0.377269" z="0.000005" rx="-0.000007" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="5"/>
+                    <element elementName="feederHouseJoint" x="0.000000" y="1.255355" z="2.750610" rx="-0.000007" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                </element>
+            </element>
+            <element elementName="cabin" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="steeringBase" x="-0.011488" y="2.956868" z="3.278860" rx="-0.407425" ry="-0.000059" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="steeringWheel" x="-0.011488" y="2.956868" z="3.278860" rx="-0.407425" ry="-0.000059" rz="0.000000" type="SHAPE" materialIndex="47">
+                        <element elementName="playerLeftHandTarget" x="0.133333" y="2.992044" z="3.199588" rx="0.117263" ry="-0.542066" rz="-2.576684" type="TRANSFORM_GROUP"/>
+                        <element elementName="interior_decals" x="-0.229915" y="3.129255" z="3.708094" rx="1.978221" ry="0.000059" rz="3.141593" type="SHAPE" materialIndex="31"/>
                     </element>
                 </element>
-                <element elementName="seat" x="-0.038907" y="2.729058" z="2.821470" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="playerSkin" x="0.000000" y="2.883176" z="2.814872" rx="0.101914" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="interiorScreenLight" x="-0.505951" y="3.058193" z="3.119517" rx="0.000000" ry="0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SUN" energie="0.350000"/>
-                    <element elementName="dashboards" x="-0.038907" y="2.729058" z="2.821470" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="visuals_1" x="-0.038907" y="2.729058" z="2.821470" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                        <element elementName="interior_decals3" x="-0.229900" y="3.387624" z="3.099296" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="31" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960InteriorDecals_diffuse.png"/>
+                <element elementName="seat" x="-0.038907" y="2.729058" z="2.821470" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="playerSkin" x="0.000000" y="2.883176" z="2.814872" rx="0.101914" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="interiorScreenLight" x="-0.505951" y="3.058193" z="3.119517" rx="0.000000" ry="-0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SUN" energie="0.350000"/>
+                    <element elementName="dashboards" x="-0.038907" y="2.729058" z="2.821470" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="visuals_1" x="-0.038907" y="2.729058" z="2.821470" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                        <element elementName="interior_decals3" x="-0.229900" y="3.387624" z="3.099296" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="31"/>
                     </element>
-                    <element elementName="seatJoint" x="-0.038907" y="2.729058" z="2.821470" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="armrest" x="0.000000" y="0.000008" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                        <element elementName="seatArmrest" x="-0.160914" y="2.918598" z="2.856570" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="46" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="seatArmrest_decal1" x="-0.160914" y="2.918598" z="2.856570" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="48" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/tucano580/tucano580InteriorDecals_diffuse.png"/>
-                        <element elementName="seatArmrest_decal" x="-0.160914" y="2.918598" z="2.856570" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="49" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/tucano580/tucano580InteriorDecals_diffuse.png"/>
-                        <element elementName="seatArmrestScrew_decal" x="-0.160914" y="2.918598" z="2.856570" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="6" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryDecals_diffuse.png"/>
-                        <element elementName="joystickRot" x="-0.366010" y="2.795618" z="2.990180" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="joystick" x="-0.366010" y="2.795618" z="2.990180" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="46" diff="gen_singleColorTexture_0_4286479998">
+                    <element elementName="seatJoint" x="-0.038907" y="2.729058" z="2.821470" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="armrest" x="0.000000" y="0.000008" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                        <element elementName="seatArmrest" x="-0.160914" y="2.918598" z="2.856570" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="46"/>
+                        <element elementName="seatArmrest_decal1" x="-0.160914" y="2.918598" z="2.856570" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="48"/>
+                        <element elementName="seatArmrest_decal" x="-0.160914" y="2.918598" z="2.856570" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="49"/>
+                        <element elementName="seatArmrestScrew_decal" x="-0.160914" y="2.918598" z="2.856570" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="6"/>
+                        <element elementName="joystickRot" x="-0.366010" y="2.795618" z="2.990180" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                            <element elementName="joystick" x="-0.366010" y="2.795618" z="2.990180" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="46">
                                 <element elementName="playerRightHandTarget" x="-0.388420" y="2.985342" z="2.987884" rx="-0.097848" ry="1.153968" rz="0.441167" type="TRANSFORM_GROUP"/>
-                                <element elementName="seatArmrest_decal2" x="-0.160914" y="2.918598" z="2.856575" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="49" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/tucano580/tucano580InteriorDecals_diffuse.png"/>
+                                <element elementName="seatArmrest_decal2" x="-0.160914" y="2.918598" z="2.856575" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="49"/>
                             </element>
                         </element>
                     </element>
-                    <element elementName="dashboards1" x="0.000000" y="0.000008" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                        <element elementName="dashboardDisplay" x="-0.440320" y="3.039918" z="3.182920" rx="-1.570796" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="15" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar900InteriorDisplayDecal_diffuse.png"/>
-                        <element elementName="dashboards_1" x="0.000000" y="0.000008" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="loadBarSpeed" x="-0.387983" y="3.009298" z="3.189310" rx="-1.755365" ry="0.157103" rz="0.152235" type="SHAPE" materialIndex="16" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar900InteriorDisplayDecal_diffuse.png"/>
-                            <element elementName="loadBarRpm" x="-0.387861" y="3.009428" z="3.188980" rx="-1.755365" ry="0.157103" rz="0.152235" type="SHAPE" materialIndex="16" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar900InteriorDisplayDecal_diffuse.png"/>
-                            <element elementName="numberDecal" x="-0.339494" y="2.991958" z="3.200050" rx="-1.755365" ry="0.157103" rz="0.152235" type="SHAPE" materialIndex="17" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar900InteriorDisplayDecal_diffuse.png"/>
+                    <element elementName="dashboards1" x="0.000000" y="0.000008" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                        <element elementName="dashboardDisplay" x="-0.440320" y="3.039918" z="3.182920" rx="-1.570796" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="15"/>
+                        <element elementName="dashboards_1" x="0.000000" y="0.000008" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                            <element elementName="loadBarSpeed" x="-0.387983" y="3.009298" z="3.189310" rx="-1.755365" ry="0.157103" rz="0.152235" type="SHAPE" materialIndex="16"/>
+                            <element elementName="loadBarRpm" x="-0.387861" y="3.009428" z="3.188980" rx="-1.755365" ry="0.157103" rz="0.152235" type="SHAPE" materialIndex="16"/>
+                            <element elementName="numberDecal" x="-0.339494" y="2.991958" z="3.200050" rx="-1.755365" ry="0.157103" rz="0.152235" type="SHAPE" materialIndex="17"/>
                             <element elementName="cruiseControlRot" x="-0.339607" y="2.990868" z="3.200000" rx="-1.407821" ry="0.460966" rz="-1.981193" type="TRANSFORM_GROUP">
-                                <element elementName="cruiseControl" x="-0.339607" y="2.990868" z="3.200000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="17" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar900InteriorDisplayDecal_diffuse.png"/>
+                                <element elementName="cruiseControl" x="-0.339607" y="2.990868" z="3.200000" rx="-1.407821" ry="0.460966" rz="-1.981193" type="SHAPE" materialIndex="17"/>
                             </element>
-                            <element elementName="visuals_2" x="0.000000" y="0.000008" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                                <element elementName="ADDEDterminalBar2" x="-0.387983" y="3.009298" z="3.189310" rx="-1.755365" ry="0.157103" rz="0.152235" type="SHAPE" materialIndex="16" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar900InteriorDisplayDecal_diffuse.png"/>
-                                <element elementName="ADDEDterminalSlider1" x="-0.378140" y="2.929278" z="3.161410" rx="-1.215746" ry="-0.355401" rz="0.000257" type="SHAPE" materialIndex="15" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar900InteriorDisplayDecal_diffuse.png"/>
-                                <element elementName="ADDEDterminalBar1" x="-0.387983" y="3.009298" z="3.189310" rx="-1.755365" ry="0.157103" rz="0.152235" type="SHAPE" materialIndex="16" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar900InteriorDisplayDecal_diffuse.png"/>
+                            <element elementName="visuals_2" x="0.000000" y="0.000008" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                                <element elementName="ADDEDterminalBar2" x="-0.387983" y="3.009298" z="3.189310" rx="-1.755365" ry="0.157103" rz="0.152235" type="SHAPE" materialIndex="16"/>
+                                <element elementName="ADDEDterminalSlider1" x="-0.378140" y="2.929278" z="3.161410" rx="-1.215746" ry="-0.355401" rz="0.000257" type="SHAPE" materialIndex="15"/>
+                                <element elementName="ADDEDterminalBar1" x="-0.387983" y="3.009298" z="3.189310" rx="-1.755365" ry="0.157103" rz="0.152235" type="SHAPE" materialIndex="16"/>
                             </element>
-                            <element elementName="numbersRpm" x="-0.486990" y="3.063648" z="3.173660" rx="-0.348094" ry="2.790433" rz="-0.002614" type="TRANSFORM_GROUP">
-                                <element elementName="numberFloatDecal" x="-0.492037" y="3.063758" z="3.171528" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberOneDecal" x="-0.488611" y="3.063749" z="3.172783" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberTenDecal" x="-0.485186" y="3.063740" z="3.174038" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberTen1Decal" x="-0.481759" y="3.063731" z="3.175293" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
+                            <element elementName="numbersRpm" x="-0.486990" y="3.063648" z="3.173660" rx="2.793499" ry="0.351160" rz="3.138979" type="TRANSFORM_GROUP">
+                                <element elementName="numberFloatDecal" x="-0.492037" y="3.063758" z="3.171528" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberOneDecal" x="-0.488611" y="3.063749" z="3.172783" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberTenDecal" x="-0.485186" y="3.063740" z="3.174038" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberTen1Decal" x="-0.481759" y="3.063731" z="3.175293" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
                             </element>
-                            <element elementName="numbersSpeed" x="-0.464355" y="2.971898" z="3.146600" rx="-0.348094" ry="2.790433" rz="-0.002614" type="TRANSFORM_GROUP">
-                                <element elementName="numberFloatDecal_1" x="-0.466607" y="2.971976" z="3.145463" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberOneDecal_1" x="-0.463918" y="2.971969" z="3.146448" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberTenDecal_1" x="-0.461901" y="2.971964" z="3.147187" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
+                            <element elementName="numbersSpeed" x="-0.464355" y="2.971898" z="3.146600" rx="2.793499" ry="0.351160" rz="3.138979" type="TRANSFORM_GROUP">
+                                <element elementName="numberFloatDecal_1" x="-0.466607" y="2.971976" z="3.145463" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberOneDecal_1" x="-0.463918" y="2.971969" z="3.146448" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberTenDecal_1" x="-0.461901" y="2.971964" z="3.147187" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
                             </element>
-                            <element elementName="numbersOperatingTime" x="-0.486337" y="3.036058" z="3.163060" rx="-0.348094" ry="2.790433" rz="-0.002614" type="TRANSFORM_GROUP">
-                                <element elementName="numberFloatDecal_2" x="-0.489054" y="3.033398" z="3.160761" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberOneDecal_2" x="-0.485475" y="3.033388" z="3.162072" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberTenDecal_2" x="-0.482791" y="3.033381" z="3.163055" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberHunDecal" x="-0.480118" y="3.033374" z="3.164034" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberThoDecal" x="-0.477472" y="3.033367" z="3.165004" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
+                            <element elementName="numbersOperatingTime" x="-0.486337" y="3.036058" z="3.163060" rx="2.793499" ry="0.351160" rz="3.138979" type="TRANSFORM_GROUP">
+                                <element elementName="numberFloatDecal_2" x="-0.489054" y="3.033398" z="3.160761" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberOneDecal_2" x="-0.485475" y="3.033388" z="3.162072" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberTenDecal_2" x="-0.482791" y="3.033381" z="3.163055" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberHunDecal" x="-0.480118" y="3.033374" z="3.164034" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberThoDecal" x="-0.477472" y="3.033367" z="3.165004" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
                             </element>
-                            <element elementName="numbersSpeedCC" x="-0.466119" y="2.967348" z="3.144200" rx="-0.348094" ry="2.790433" rz="-0.002614" type="TRANSFORM_GROUP">
-                                <element elementName="numberFloatDecal_3" x="-0.468006" y="2.967419" z="3.143324" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberOneDecal_3" x="-0.465782" y="2.967407" z="3.144140" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberTenDecal_3" x="-0.464113" y="2.967396" z="3.144753" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
+                            <element elementName="numbersSpeedCC" x="-0.466119" y="2.967348" z="3.144200" rx="2.793499" ry="0.351160" rz="3.138979" type="TRANSFORM_GROUP">
+                                <element elementName="numberFloatDecal_3" x="-0.468006" y="2.967419" z="3.143324" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberOneDecal_3" x="-0.465782" y="2.967407" z="3.144140" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberTenDecal_3" x="-0.464113" y="2.967396" z="3.144753" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
                             </element>
-                            <element elementName="numbersTemp" x="-0.485763" y="3.053608" z="3.170240" rx="-0.348094" ry="2.790433" rz="-0.002614" type="TRANSFORM_GROUP">
-                                <element elementName="numberFloatDecal_4" x="-0.490494" y="3.053711" z="3.168242" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberOneDecal_4" x="-0.487283" y="3.053703" z="3.169418" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberTenDecal_4" x="-0.484071" y="3.053694" z="3.170594" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberTen1Decal_1" x="-0.480860" y="3.053686" z="3.171771" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
+                            <element elementName="numbersTemp" x="-0.485763" y="3.053608" z="3.170240" rx="2.793499" ry="0.351160" rz="3.138979" type="TRANSFORM_GROUP">
+                                <element elementName="numberFloatDecal_4" x="-0.490494" y="3.053711" z="3.168242" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberOneDecal_4" x="-0.487283" y="3.053703" z="3.169418" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberTenDecal_4" x="-0.484071" y="3.053694" z="3.170594" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberTen1Decal_1" x="-0.480860" y="3.053686" z="3.171771" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
                             </element>
-                            <element elementName="numbersFuel" x="-0.484475" y="3.043058" z="3.166650" rx="-0.348094" ry="2.790433" rz="-0.002614" type="TRANSFORM_GROUP">
-                                <element elementName="numberFloatDecal_5" x="-0.489193" y="3.043161" z="3.164657" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberOneDecal_5" x="-0.485990" y="3.043152" z="3.165831" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberTenDecal_5" x="-0.482788" y="3.043144" z="3.167004" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                                <element elementName="numberTen1Decal_2" x="-0.479586" y="3.043135" z="3.168177" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
+                            <element elementName="numbersFuel" x="-0.484475" y="3.043058" z="3.166650" rx="2.793499" ry="0.351160" rz="3.138979" type="TRANSFORM_GROUP">
+                                <element elementName="numberFloatDecal_5" x="-0.489193" y="3.043161" z="3.164657" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberOneDecal_5" x="-0.485990" y="3.043152" z="3.165831" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberTenDecal_5" x="-0.482788" y="3.043144" z="3.167004" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
+                                <element elementName="numberTen1Decal_2" x="-0.479586" y="3.043135" z="3.168177" rx="2.793499" ry="0.351160" rz="3.138979" type="SHAPE" materialIndex="42"/>
                             </element>
                         </element>
                     </element>
                 </element>
-                <element elementName="wipers" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="wipers" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
                     <element elementName="wiperFrontMiddleArm01Rot" x="-0.006773" y="2.960318" z="3.814170" rx="1.794321" ry="-1.452247" rz="-1.729883" type="TRANSFORM_GROUP">
-                        <element elementName="wiperFrontMiddleArm01" x="-0.006773" y="2.960318" z="3.814170" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                        <element elementName="wiperFrontMiddleArm01" x="-0.006773" y="2.960318" z="3.814170" rx="1.794321" ry="-1.452247" rz="-1.729883" type="TRANSFORM_GROUP"/>
                     </element>
-                    <element elementName="wiperBack" x="0.010319" y="3.769248" z="2.289380" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="wiperRight" x="-0.766188" y="3.704618" z="3.541890" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="wiperLeft" x="0.764545" y="3.704618" z="3.541580" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="wiperBack" x="0.010319" y="3.769248" z="2.289380" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="wiperRight" x="-0.766188" y="3.704618" z="3.541890" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="wiperLeft" x="0.764545" y="3.704618" z="3.541580" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
                 </element>
-                <element elementName="dashboards_2" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="cabinDecalLight" x="-0.245139" y="3.750898" z="3.214550" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="31" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960InteriorDecals_diffuse.png"/>
-                    <element elementName="beaconLight_decal" x="-0.077110" y="3.821878" z="3.171350" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="31" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960InteriorDecals_diffuse.png"/>
-                    <element elementName="worklightBackDecal" x="-0.066749" y="3.802338" z="3.185760" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="31" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960InteriorDecals_diffuse.png"/>
-                    <element elementName="worklightFrontDecal" x="0.101630" y="3.810128" z="3.180140" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="31" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960InteriorDecals_diffuse.png"/>
-                    <element elementName="worklightBackDecal1" x="-0.066749" y="3.802338" z="3.185760" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="31" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960InteriorDecals_diffuse.png"/>
+                <element elementName="dashboards_2" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="cabinDecalLight" x="-0.245139" y="3.750898" z="3.214550" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="31"/>
+                    <element elementName="beaconLight_decal" x="-0.077110" y="3.821878" z="3.171350" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="31"/>
+                    <element elementName="worklightBackDecal" x="-0.066749" y="3.802338" z="3.185760" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="31"/>
+                    <element elementName="worklightFrontDecal" x="0.101630" y="3.810128" z="3.180140" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="31"/>
+                    <element elementName="worklightBackDecal1" x="-0.066749" y="3.802338" z="3.185760" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="31"/>
                     <element elementName="ingnitionKeyRot" x="-0.663760" y="3.084838" z="2.528770" rx="-0.451599" ry="0.767927" rz="0.000000" type="TRANSFORM_GROUP">
-                        <element elementName="ignitionKey" x="-0.663760" y="3.084838" z="2.528770" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                        <element elementName="ignitionKey" x="-0.663760" y="3.084838" z="2.528770" rx="-0.451599" ry="0.767927" rz="0.000000" type="TRANSFORM_GROUP"/>
                     </element>
-                    <element elementName="hazard_decals" x="-0.512967" y="3.801288" z="2.993190" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="31" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960InteriorDecals_diffuse.png"/>
+                    <element elementName="hazard_decals" x="-0.512967" y="3.801288" z="2.993190" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="31"/>
                 </element>
-                <element elementName="characterTargets" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="characterTargets" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
                     <element elementName="playerRightFootTarget" x="-0.182801" y="2.316578" z="3.040070" rx="0.000000" ry="-0.201470" rz="0.000000" type="TRANSFORM_GROUP"/>
                     <element elementName="playerLeftFootTarget" x="0.176503" y="2.316578" z="3.040070" rx="0.000000" ry="0.159560" rz="0.000000" type="TRANSFORM_GROUP"/>
                 </element>
-                <element elementName="mirrors" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="mirrorDecal_01" x="1.355370" y="3.781938" z="3.383190" rx="-1.675242" ry="0.561333" rz="0.000000" type="SHAPE" materialIndex="43" diff="gen_singleColorTexture_0_4278190080">
-                        <element elementName="mirrorDecal_01Ref" x="1.355375" y="3.781937" z="0.395456" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                <element elementName="mirrors" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="mirrorDecal_01" x="1.355370" y="3.781938" z="3.383190" rx="-1.675242" ry="0.561333" rz="0.000000" type="SHAPE" materialIndex="43">
+                        <element elementName="mirrorDecal_01Ref" x="1.355375" y="3.781937" z="0.395456" rx="-1.675242" ry="0.561333" rz="0.000000" type="TRANSFORM_GROUP"/>
                     </element>
-                    <element elementName="mirrorDecal_03" x="-1.389290" y="3.505538" z="3.400450" rx="-1.567135" ry="-0.565899" rz="0.000000" type="SHAPE" materialIndex="43" diff="gen_singleColorTexture_0_4278190080">
-                        <element elementName="mirrorDecal_03Ref" x="-1.389293" y="3.505538" z="0.412715" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="mirrorDecal_03" x="-1.389290" y="3.505538" z="3.400450" rx="-1.567135" ry="-0.565899" rz="0.000000" type="SHAPE" materialIndex="43">
+                        <element elementName="mirrorDecal_03Ref" x="-1.389293" y="3.505538" z="0.412715" rx="-1.567135" ry="-0.565899" rz="0.000000" type="TRANSFORM_GROUP"/>
                     </element>
-                    <element elementName="mirrorDecal_02" x="-1.338110" y="3.781938" z="3.383190" rx="-1.676153" ry="-0.558785" rz="0.000000" type="SHAPE" materialIndex="43" diff="gen_singleColorTexture_0_4278190080">
-                        <element elementName="mirrorDecal_02Ref" x="-1.338116" y="3.781938" z="0.395456" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="mirrorDecal_02" x="-1.338110" y="3.781938" z="3.383190" rx="-1.676153" ry="-0.558785" rz="0.000000" type="SHAPE" materialIndex="43">
+                        <element elementName="mirrorDecal_02Ref" x="-1.338116" y="3.781938" z="0.395456" rx="-1.676153" ry="-0.558785" rz="0.000000" type="TRANSFORM_GROUP"/>
                     </element>
-                    <element elementName="mirrorDecal_04" x="1.406550" y="3.505538" z="3.400450" rx="-1.567166" ry="0.568265" rz="0.000000" type="SHAPE" materialIndex="43" diff="gen_singleColorTexture_0_4278190080">
-                        <element elementName="mirrorDecal_04Ref" x="1.406550" y="3.505539" z="0.412719" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="mirrorDecal_04" x="1.406550" y="3.505538" z="3.400450" rx="-1.567166" ry="0.568265" rz="0.000000" type="SHAPE" materialIndex="43">
+                        <element elementName="mirrorDecal_04Ref" x="1.406550" y="3.505539" z="0.412719" rx="-1.567166" ry="0.568265" rz="0.000000" type="TRANSFORM_GROUP"/>
                     </element>
-                    <element elementName="mirrorDecal_05" x="-1.504250" y="3.852368" z="3.225150" rx="-2.461490" ry="-1.263707" rz="0.000000" type="SHAPE" materialIndex="43" diff="gen_singleColorTexture_0_4278190080">
-                        <element elementName="mirrorDecal_05Ref" x="-1.504245" y="2.576176" z="3.225148" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="mirrorDecal_05" x="-1.504250" y="3.852368" z="3.225150" rx="-2.461490" ry="-1.263707" rz="0.000000" type="SHAPE" materialIndex="43">
+                        <element elementName="mirrorDecal_05Ref" x="-1.504245" y="2.576176" z="3.225148" rx="-2.461490" ry="-1.263707" rz="0.000000" type="TRANSFORM_GROUP"/>
                     </element>
-                    <element elementName="mirrorDecal_06" x="-0.765958" y="3.383168" z="-3.100510" rx="0.852054" ry="-0.417971" rz="3.141593" type="SHAPE" materialIndex="43" diff="gen_singleColorTexture_0_4278190080">
-                        <element elementName="mirrorDecal_06Ref" x="-0.076516" y="1.207509" z="-3.143780" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="mirrorDecal_06" x="-0.765958" y="3.383168" z="-3.100510" rx="0.852054" ry="-0.417972" rz="-3.141593" type="SHAPE" materialIndex="43">
+                        <element elementName="mirrorDecal_06Ref" x="-0.076516" y="1.207509" z="-3.143780" rx="0.852054" ry="-0.417972" rz="-3.141593" type="TRANSFORM_GROUP"/>
                     </element>
                 </element>
             </element>
-            <element elementName="ai" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="trailerTrigger" x="0.000000" y="4.006860" z="-1.326910" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                <element elementName="aiCollisionNode" x="0.000000" y="0.000000" z="3.893420" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+            <element elementName="ai" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="trailerTrigger" x="0.000000" y="4.006860" z="-1.326910" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
+                <element elementName="aiCollisionNode" x="0.000000" y="0.000000" z="3.893420" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
             </element>
-            <element elementName="particles" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="exhaustParticle1" x="0.655856" y="3.266948" z="-1.663760" rx="1.339203" ry="-3.140476" rz="0.000000" type="TRANSFORM_GROUP"/>
+            <element elementName="particles" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="exhaustParticle1" x="0.655856" y="3.266948" z="-1.663760" rx="-1.802389" ry="-0.001117" rz="3.141593" type="TRANSFORM_GROUP"/>
             </element>
-            <element elementName="movingParts" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="pipeBase" x="0.009439" y="3.034288" z="1.973110" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="pipeShort" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998">
-                        <element elementName="pipeArm01ShortRot" x="0.012746" y="3.163485" z="-3.340481" rx="2.752681" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="pipeArm01Short" x="0.012746" y="3.163485" z="-3.340481" rx="-0.626756" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998">
-                                <element elementName="pipeArm02Short" x="0.009830" y="2.787043" z="-3.593790" rx="-0.732119" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998">
-                                    <element elementName="effect" x="0.009361" y="2.649805" z="-3.480316" rx="0.000005" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                                        <element elementName="pipeEffect3Short" x="0.009361" y="2.649805" z="-3.480316" rx="0.000000" ry="0.000000" rz="-3.141593" type="SHAPE" materialIndex="13" diff="gen_singleColorTexture_0_4290164406"/>
-                                        <element elementName="pipeRaycastNodeShort" x="-0.003119" y="2.441248" z="-3.448508" rx="-1.570796" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+            <element elementName="movingParts" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="pipeBase" x="0.009439" y="3.034288" z="1.973110" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="pipeShort" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27">
+                        <element elementName="pipeArm01ShortRot" x="0.012746" y="3.163485" z="-3.340481" rx="2.752681" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                            <element elementName="pipeArm01Short" x="0.012746" y="3.163485" z="-3.340481" rx="2.125925" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27">
+                                <element elementName="pipeArm02Short" x="0.009830" y="2.787043" z="-3.593790" rx="1.393806" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27">
+                                    <element elementName="effect" x="0.009361" y="2.649805" z="-3.480316" rx="1.393811" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                                        <element elementName="pipeEffect3Short" x="0.009361" y="2.649805" z="-3.480316" rx="-1.393811" ry="-0.000000" rz="3.141593" type="SHAPE" materialIndex="13"/>
+                                        <element elementName="pipeRaycastNodeShort" x="-0.003119" y="2.441248" z="-3.448508" rx="-0.176985" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
                                     </element>
-                                    <element elementName="visuals_3" x="0.009830" y="2.787045" z="-3.593790" rx="0.000005" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                                        <element elementName="screws_decal7" x="0.011407" y="2.344299" z="-0.106901" rx="-1.393808" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="5" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryDecals_diffuse.png"/>
+                                    <element elementName="visuals_3" x="0.009830" y="2.787045" z="-3.593790" rx="1.393811" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                                        <element elementName="screws_decal7" x="0.011407" y="2.344299" z="-0.106901" rx="0.000004" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="5"/>
                                     </element>
-                                    <element elementName="pipeLightOrientationArm01ShortRef" x="0.189790" y="2.787042" z="-3.593792" rx="-1.057013" ry="-0.000004" rz="3.141575" type="TRANSFORM_GROUP"/>
+                                    <element elementName="pipeLightOrientationArm01ShortRef" x="0.189790" y="2.787042" z="-3.593792" rx="-2.450819" ry="-0.000018" rz="-3.141592" type="TRANSFORM_GROUP"/>
                                 </element>
-                                <element elementName="spring02DecalShort" x="0.004342" y="2.919732" z="-3.547866" rx="-2.125916" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="20" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960DecalsSprings_diffuse.png"/>
-                                <element elementName="pipeEffect2Short" x="0.000000" y="3.051740" z="-3.393754" rx="-2.696691" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="13" diff="gen_singleColorTexture_0_4290164406"/>
-                                <element elementName="pipeArm01ShortHydraulicRef" x="0.194895" y="2.986149" z="-3.151282" rx="-0.253319" ry="0.057059" rz="3.049352" type="TRANSFORM_GROUP"/>
-                                <element elementName="pipeLightOrientationArm02ShortRef" x="0.227426" y="3.138237" z="-3.275878" rx="-0.496974" ry="-0.009407" rz="-3.126426" type="TRANSFORM_GROUP"/>
+                                <element elementName="spring02DecalShort" x="0.004342" y="2.919732" z="-3.547866" rx="0.000009" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="20"/>
+                                <element elementName="pipeEffect2Short" x="0.000000" y="3.051740" z="-3.393754" rx="-0.570767" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="13"/>
+                                <element elementName="pipeArm01ShortHydraulicRef" x="0.194895" y="2.986149" z="-3.151282" rx="-2.376610" ry="-0.108420" rz="-3.141589" type="TRANSFORM_GROUP"/>
+                                <element elementName="pipeLightOrientationArm02ShortRef" x="0.227426" y="3.138237" z="-3.275878" rx="-2.622827" ry="0.017847" rz="-3.141592" type="TRANSFORM_GROUP"/>
                             </element>
                         </element>
-                        <element elementName="pipeArm01ShortHydraulic" x="0.219982" y="3.208726" z="-2.920781" rx="0.764987" ry="3.250013" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998">
-                            <element elementName="pipeArm01ShortHydraulicPunch" x="0.194894" y="2.986150" z="-3.151273" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
-                            <element elementName="pipeArm01ShortHydraulicJoint" x="0.219982" y="3.208726" z="-2.920781" rx="0.767929" ry="3.063454" rz="0.075233" type="TRANSFORM_GROUP"/>
+                        <element elementName="pipeArm01ShortHydraulic" x="0.219982" y="3.208726" z="-2.920781" rx="-2.376606" ry="-0.108420" rz="3.141593" type="SHAPE" materialIndex="27">
+                            <element elementName="pipeArm01ShortHydraulicPunch" x="0.194894" y="2.986150" z="-3.151273" rx="-2.376606" ry="-0.108420" rz="3.141593" type="SHAPE" materialIndex="27"/>
+                            <element elementName="pipeArm01ShortHydraulicJoint" x="0.219982" y="3.208726" z="-2.920781" rx="0.000000" ry="0.000004" rz="0.000002" type="TRANSFORM_GROUP"/>
                         </element>
-                        <element elementName="spring01DecalShort" x="0.008510" y="3.264252" z="-3.249411" rx="0.085543" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="20" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960DecalsSprings_diffuse.png"/>
-                        <element elementName="pipeLightOrientationArm01Short" x="0.189798" y="3.116040" z="-3.195791" rx="0.690777" ry="3.141610" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="pipeLightOrientationArm02Short" x="0.219064" y="3.405725" z="-2.807431" rx="0.518771" ry="3.123738" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="lights_1" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="workLightBackLowShort" x="0.000000" y="3.334307" z="-2.951481" rx="-0.784183" ry="0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="10.000000"/>
-                            <element elementName="staticLights_1" x="0.000000" y="0.377293" z="-0.000001" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                                <element elementName="worklightPipeShort_static" x="0.009191" y="3.435823" z="1.170779" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="11" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                                <element elementName="worklightPipe2Short_static" x="0.003076" y="3.367403" z="-2.724811" rx="0.085543" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="12" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                                <element elementName="vis_1" x="0.009191" y="3.457083" z="1.216379" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                                    <element elementName="light_armBot_inside_static" x="0.009191" y="3.437158" z="1.207092" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="36" diff="gen_singleColorTexture_0_4286479998"/>
-                                    <element elementName="light_armBot_frame_static" x="0.009191" y="3.457083" z="1.216379" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="35" diff="gen_singleColorTexture_0_4286479998"/>
-                                    <element elementName="light_armTop_inside_static" x="0.004958" y="3.368670" z="-2.722361" rx="0.085543" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="19" diff="gen_singleColorTexture_0_4286479998"/>
-                                    <element elementName="light_armTop_frame_static" x="0.004958" y="3.395874" z="-2.693581" rx="0.085543" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="37" diff="gen_singleColorTexture_0_4286479998"/>
+                        <element elementName="spring01DecalShort" x="0.008510" y="3.264252" z="-3.249411" rx="0.085543" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="20"/>
+                        <element elementName="pipeLightOrientationArm01Short" x="0.189798" y="3.116040" z="-3.195791" rx="-2.450816" ry="-0.000018" rz="3.141593" type="SHAPE" materialIndex="27"/>
+                        <element elementName="pipeLightOrientationArm02Short" x="0.219064" y="3.405725" z="-2.807431" rx="-2.622821" ry="0.017855" rz="-3.141593" type="SHAPE" materialIndex="27"/>
+                        <element elementName="lights_1" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                            <element elementName="workLightBackLowShort" x="0.000000" y="3.334307" z="-2.951481" rx="-0.784183" ry="-0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="10.000000"/>
+                            <element elementName="staticLights_1" x="0.000000" y="0.377293" z="-0.000001" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                                <element elementName="worklightPipeShort_static" x="0.009191" y="3.435823" z="1.170779" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="11"/>
+                                <element elementName="worklightPipe2Short_static" x="0.003076" y="3.367403" z="-2.724811" rx="0.085543" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="12"/>
+                                <element elementName="vis_1" x="0.009191" y="3.457083" z="1.216379" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                                    <element elementName="light_armBot_inside_static" x="0.009191" y="3.437158" z="1.207092" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="36"/>
+                                    <element elementName="light_armBot_frame_static" x="0.009191" y="3.457083" z="1.216379" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="35"/>
+                                    <element elementName="light_armTop_inside_static" x="0.004958" y="3.368670" z="-2.722361" rx="0.085543" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="19"/>
+                                    <element elementName="light_armTop_frame_static" x="0.004958" y="3.395874" z="-2.693581" rx="0.085543" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="37"/>
                                 </element>
                             </element>
                         </element>
-                        <element elementName="visuals_4" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="exterior_decals2" x="0.024416" y="2.114883" z="0.397069" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="28" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960ExteriorDecals_diffuse.png"/>
-                            <element elementName="exteriorShared_decals2" x="0.000287" y="2.236774" z="0.460739" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="8" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryStickers_diffuse.png"/>
-                            <element elementName="screws_decal2" x="0.011407" y="2.344307" z="-0.106891" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="5" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryDecals_diffuse.png"/>
+                        <element elementName="visuals_4" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                            <element elementName="exterior_decals2" x="0.024416" y="2.114883" z="0.397069" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="28"/>
+                            <element elementName="exteriorShared_decals2" x="0.000287" y="2.236774" z="0.460739" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="8"/>
+                            <element elementName="screws_decal2" x="0.011407" y="2.344307" z="-0.106891" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="5"/>
                         </element>
-                        <element elementName="skinnedMesh" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                        <element elementName="pipeEffect1Short" x="0.000000" y="3.434707" z="-2.356731" rx="-0.150817" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="13" diff="gen_singleColorTexture_0_4290164406"/>
-                        <element elementName="pipeHydraulicRef" x="0.005104" y="3.427262" z="1.386119" rx="2.346159" ry="0.009360" rz="-3.141593" type="TRANSFORM_GROUP"/>
-                        <element elementName="collisions" x="0.000000" y="0.000003" z="-0.000001" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="colPartShort01" x="0.000000" y="3.357903" z="1.694069" rx="-0.780173" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                            <element elementName="colPartShort02" x="0.000000" y="3.506893" z="-2.202621" rx="-0.780173" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                            <element elementName="colPartShort03" x="0.000000" y="3.881923" z="-0.485242" rx="-0.780173" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                            <element elementName="colPartShort04" x="0.000000" y="3.876393" z="0.746072" rx="-0.780173" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
+                        <element elementName="skinnedMesh" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                        <element elementName="pipeEffect1Short" x="0.000000" y="3.434707" z="-2.356731" rx="-0.150817" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="13"/>
+                        <element elementName="pipeHydraulicRef" x="0.005104" y="3.427262" z="1.386119" rx="2.346159" ry="0.009360" rz="3.141593" type="TRANSFORM_GROUP"/>
+                        <element elementName="collisions" x="0.000000" y="0.000003" z="-0.000001" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                            <element elementName="colPartShort01" x="0.000000" y="3.357903" z="1.694069" rx="-0.780173" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
+                            <element elementName="colPartShort02" x="0.000000" y="3.506893" z="-2.202621" rx="-0.780173" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
+                            <element elementName="colPartShort03" x="0.000000" y="3.881923" z="-0.485242" rx="-0.780173" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
+                            <element elementName="colPartShort04" x="0.000000" y="3.876393" z="0.746072" rx="-0.780173" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
                         </element>
-                        <element elementName="pipeShortJoint" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                        <element elementName="cameras2" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="18" diff="gen_singleColorTexture_0_4286479998"/>
+                        <element elementName="pipeShortJoint" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                        <element elementName="cameras2" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="18"/>
                     </element>
-                    <element elementName="pipeLong" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998">
-                        <element elementName="pipeArm01LongRot" x="0.012746" y="2.826949" z="-4.037161" rx="2.676236" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="pipeArm01Long" x="0.012746" y="2.826949" z="-4.037161" rx="-0.627339" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998">
-                                <element elementName="pipeArm02Long" x="0.009984" y="2.430221" z="-4.257455" rx="-0.740566" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998">
-                                    <element elementName="effect_1" x="0.009361" y="2.324975" z="-4.122445" rx="-0.006667" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                                        <element elementName="pipeEffect3Long" x="0.009361" y="2.324975" z="-4.122445" rx="0.000000" ry="-0.000000" rz="3.141593" type="SHAPE" materialIndex="13" diff="gen_singleColorTexture_0_4290164406"/>
-                                        <element elementName="pipeRaycastNodeLong" x="-0.003119" y="2.158008" z="-4.076643" rx="-1.570796" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="pipeLong" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27">
+                        <element elementName="pipeArm01LongRot" x="0.012746" y="2.826949" z="-4.037161" rx="2.676236" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                            <element elementName="pipeArm01Long" x="0.012746" y="2.826949" z="-4.037161" rx="2.048896" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27">
+                                <element elementName="pipeArm02Long" x="0.009984" y="2.430221" z="-4.257455" rx="1.308330" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27">
+                                    <element elementName="effect_1" x="0.009361" y="2.324975" z="-4.122445" rx="1.301664" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                                        <element elementName="pipeEffect3Long" x="0.009361" y="2.324975" z="-4.122445" rx="-1.301664" ry="0.000000" rz="-3.141593" type="SHAPE" materialIndex="13"/>
+                                        <element elementName="pipeRaycastNodeLong" x="-0.003119" y="2.158008" z="-4.076643" rx="-0.269133" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
                                     </element>
-                                    <element elementName="visuals_5" x="0.011953" y="3.138775" z="1.963336" rx="-1.308337" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                                        <element elementName="screws_decal6" x="0.011407" y="2.344334" z="-0.106889" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="5" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryDecals_diffuse.png"/>
+                                    <element elementName="visuals_5" x="0.011953" y="3.138775" z="1.963335" rx="-0.000007" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                                        <element elementName="screws_decal6" x="0.011407" y="2.344334" z="-0.106890" rx="-0.000007" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="5"/>
                                     </element>
-                                    <element elementName="pipeLightOrientationArm01LongRef" x="0.189790" y="2.430238" z="-4.257379" rx="-1.056935" ry="-0.000006" rz="3.141575" type="TRANSFORM_GROUP"/>
+                                    <element elementName="pipeLightOrientationArm01LongRef" x="0.189790" y="2.430238" z="-4.257379" rx="-2.365265" ry="-0.000018" rz="-3.141592" type="TRANSFORM_GROUP"/>
                                 </element>
-                                <element elementName="spring02DecalLong" x="0.004342" y="2.566366" z="-4.222959" rx="-2.048912" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="20" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960DecalsSprings_diffuse.png"/>
-                                <element elementName="pipeEffect2Long" x="0.000000" y="2.785154" z="-4.036973" rx="-2.619669" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="13" diff="gen_singleColorTexture_0_4290164406"/>
-                                <element elementName="pipeArm01LongHydraulicRef" x="0.194895" y="2.666429" z="-3.833500" rx="-0.245578" ry="0.054442" rz="3.036245" type="TRANSFORM_GROUP"/>
-                                <element elementName="pipeLightOrientationArm02LongRef" x="0.227653" y="2.804266" z="-3.976545" rx="-0.489038" ry="-0.008810" rz="-3.124593" type="TRANSFORM_GROUP"/>
+                                <element elementName="spring02DecalLong" x="0.004342" y="2.566366" z="-4.222959" rx="-0.000016" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="20"/>
+                                <element elementName="pipeEffect2Long" x="0.000000" y="2.785154" z="-4.036973" rx="-0.570773" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="13"/>
+                                <element elementName="pipeArm01LongHydraulicRef" x="0.194895" y="2.666429" z="-3.833500" rx="-2.291603" ry="-0.118537" rz="3.141588" type="TRANSFORM_GROUP"/>
+                                <element elementName="pipeLightOrientationArm02LongRef" x="0.227653" y="2.804266" z="-3.976545" rx="-2.537859" ry="0.019146" rz="-3.141591" type="TRANSFORM_GROUP"/>
                             </element>
                         </element>
-                        <element elementName="pipeArm01LongHydraulic" x="0.219982" y="2.907883" z="-3.622871" rx="0.849982" ry="3.260136" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998">
-                            <element elementName="pipeArm01LongHydraulicPunch" x="0.194895" y="2.666428" z="-3.833503" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
-                            <element elementName="pipeArm01LongHydraulicJoint" x="0.219982" y="2.907883" z="-3.622871" rx="0.853473" ry="3.063454" rz="0.089241" type="TRANSFORM_GROUP"/>
+                        <element elementName="pipeArm01LongHydraulic" x="0.219982" y="2.907883" z="-3.622871" rx="-2.291610" ry="-0.118543" rz="3.141593" type="SHAPE" materialIndex="27">
+                            <element elementName="pipeArm01LongHydraulicPunch" x="0.194895" y="2.666428" z="-3.833503" rx="-2.291610" ry="-0.118543" rz="3.141593" type="SHAPE" materialIndex="27"/>
+                            <element elementName="pipeArm01LongHydraulicJoint" x="0.219982" y="2.907883" z="-3.622871" rx="0.000000" ry="-0.000003" rz="0.000002" type="TRANSFORM_GROUP"/>
                         </element>
-                        <element elementName="spring01DecalLong" x="0.008510" y="2.935128" z="-3.955041" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="20" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960DecalsSprings_diffuse.png"/>
-                        <element elementName="pipeLightOrientationArm01Long" x="0.189798" y="2.792039" z="-3.888951" rx="0.776321" ry="3.141610" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="pipeLightOrientationArm02Long" x="0.219064" y="3.113592" z="-3.528081" rx="0.603725" ry="3.122447" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="lights_2" x="0.180532" y="3.408376" z="-2.841301" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="staticLights_2" x="0.009191" y="3.457078" z="1.216369" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                                <element elementName="worklightPipeStaticLong_static" x="0.009191" y="3.435817" z="1.170775" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="11" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                                <element elementName="worklightPipe2StaticLong_static" x="0.003076" y="3.082719" z="-3.441171" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="12" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                                <element elementName="vis_2" x="0.009191" y="3.457078" z="1.216369" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                                    <element elementName="light_armBot_inside_static_1" x="0.009191" y="3.437153" z="1.207082" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="36" diff="gen_singleColorTexture_0_4286479998"/>
-                                    <element elementName="light_armBot_frame_static_1" x="0.009191" y="3.457078" z="1.216369" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="35" diff="gen_singleColorTexture_0_4286479998"/>
-                                    <element elementName="light_armTop_inside_static_1" x="0.004958" y="3.084189" z="-3.438841" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="19" diff="gen_singleColorTexture_0_4286479998"/>
-                                    <element elementName="light_armTop_frame_static_1" x="0.004958" y="3.113754" z="-3.412491" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="37" diff="gen_singleColorTexture_0_4286479998"/>
+                        <element elementName="spring01DecalLong" x="0.008510" y="2.935128" z="-3.955041" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="20"/>
+                        <element elementName="pipeLightOrientationArm01Long" x="0.189798" y="2.792039" z="-3.888951" rx="-2.365272" ry="-0.000018" rz="3.141593" type="SHAPE" materialIndex="27"/>
+                        <element elementName="pipeLightOrientationArm02Long" x="0.219064" y="3.113592" z="-3.528081" rx="-2.537868" ry="0.019146" rz="-3.141593" type="SHAPE" materialIndex="27"/>
+                        <element elementName="lights_2" x="0.180532" y="3.408376" z="-2.841301" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                            <element elementName="staticLights_2" x="0.009191" y="3.457078" z="1.216369" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                                <element elementName="worklightPipeStaticLong_static" x="0.009191" y="3.435817" z="1.170775" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="11"/>
+                                <element elementName="worklightPipe2StaticLong_static" x="0.003076" y="3.082719" z="-3.441171" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="12"/>
+                                <element elementName="vis_2" x="0.009191" y="3.457078" z="1.216369" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                                    <element elementName="light_armBot_inside_static_1" x="0.009191" y="3.437153" z="1.207082" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="36"/>
+                                    <element elementName="light_armBot_frame_static_1" x="0.009191" y="3.457078" z="1.216369" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="35"/>
+                                    <element elementName="light_armTop_inside_static_1" x="0.004958" y="3.084189" z="-3.438841" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="19"/>
+                                    <element elementName="light_armTop_frame_static_1" x="0.004958" y="3.113754" z="-3.412491" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="37"/>
                                 </element>
                             </element>
-                            <element elementName="workLightBackLowLong" x="0.000000" y="3.033841" z="-3.482885" rx="-0.959931" ry="0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="10.000000"/>
+                            <element elementName="workLightBackLowLong" x="0.000000" y="3.033841" z="-3.482885" rx="-0.959931" ry="-0.000000" rz="0.000000" type="LIGHT_SOURCE" lightType="SPOT" energie="10.000000"/>
                         </element>
-                        <element elementName="skinnedMesh_1" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                        <element elementName="pipeEffect1Long" x="0.000000" y="3.168120" z="-2.999951" rx="-0.150817" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="13" diff="gen_singleColorTexture_0_4290164406"/>
-                        <element elementName="visuals_6" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="screws_decal8" x="0.011407" y="2.344307" z="-0.106891" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="5" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryDecals_diffuse.png"/>
+                        <element elementName="skinnedMesh_1" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                        <element elementName="pipeEffect1Long" x="0.000000" y="3.168120" z="-2.999951" rx="-0.150817" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="13"/>
+                        <element elementName="visuals_6" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                            <element elementName="screws_decal8" x="0.011407" y="2.344307" z="-0.106891" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="5"/>
                         </element>
-                        <element elementName="pipe2HydraulicRef" x="0.005104" y="3.427262" z="1.386119" rx="2.346159" ry="0.009360" rz="-3.141593" type="TRANSFORM_GROUP"/>
-                        <element elementName="collisions1" x="0.000000" y="0.000003" z="-0.000001" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="colPartLong01" x="0.000000" y="3.357903" z="1.694069" rx="-0.780173" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                            <element elementName="colPartLong02" x="0.000000" y="2.951163" z="-3.604581" rx="-0.780173" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                            <element elementName="colPartLong03" x="0.000000" y="3.506893" z="-2.202621" rx="-0.780173" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                            <element elementName="colPartLong04" x="0.000000" y="3.881923" z="-0.485242" rx="-0.780173" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
-                            <element elementName="colPartLong05" x="0.000000" y="3.876393" z="0.746071" rx="-0.780173" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
+                        <element elementName="pipe2HydraulicRef" x="0.005104" y="3.427262" z="1.386119" rx="2.346159" ry="0.009360" rz="3.141593" type="TRANSFORM_GROUP"/>
+                        <element elementName="collisions1" x="0.000000" y="0.000003" z="-0.000001" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                            <element elementName="colPartLong01" x="0.000000" y="3.357903" z="1.694069" rx="-0.780173" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
+                            <element elementName="colPartLong02" x="0.000000" y="2.951163" z="-3.604581" rx="-0.780173" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
+                            <element elementName="colPartLong03" x="0.000000" y="3.506893" z="-2.202621" rx="-0.780173" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
+                            <element elementName="colPartLong04" x="0.000000" y="3.881923" z="-0.485242" rx="-0.780173" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
+                            <element elementName="colPartLong05" x="0.000000" y="3.876393" z="0.746071" rx="-0.780173" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
                         </element>
-                        <element elementName="cameras_1" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="18" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="pipeLongJoint" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                        <element elementName="exteriorShared_decals3" x="0.000287" y="2.236774" z="0.460739" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="8" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryStickers_diffuse.png"/>
-                        <element elementName="exterior_decals3" x="0.024416" y="2.114883" z="0.397069" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="28" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960ExteriorDecals_diffuse.png"/>
+                        <element elementName="cameras_1" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="18"/>
+                        <element elementName="pipeLongJoint" x="0.011953" y="3.138733" z="1.963339" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                        <element elementName="exteriorShared_decals3" x="0.000287" y="2.236774" z="0.460739" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="8"/>
+                        <element elementName="exterior_decals3" x="0.024416" y="2.114883" z="0.397069" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="28"/>
                     </element>
-                    <element elementName="visuals_7" x="0.092569" y="3.492678" z="0.814740" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                        <element elementName="vis_3" x="-0.017962" y="0.377288" z="-0.000009" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                        <element elementName="screws_decal3" x="0.011407" y="2.344308" z="-0.106899" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="5" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryDecals_diffuse.png"/>
+                    <element elementName="visuals_7" x="0.092569" y="3.492678" z="0.814740" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                        <element elementName="vis_3" x="-0.017962" y="0.377288" z="-0.000009" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                        <element elementName="screws_decal3" x="0.011407" y="2.344308" z="-0.106899" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="5"/>
                     </element>
-                    <element elementName="pipe2Hydraulic" x="0.001957" y="3.084275" z="1.722271" rx="2.346159" ry="0.009360" rz="-3.141593" type="SHAPE" materialIndex="22" diff="gen_singleColorTexture_0_4286479998">
-                        <element elementName="pipe2HydraulicPunch" x="0.005104" y="3.427260" z="1.386116" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="visuals_8" x="-0.017963" y="0.377276" z="0.000021" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="armBase3" x="0.092569" y="3.492671" z="0.814739" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
+                    <element elementName="pipe2Hydraulic" x="0.001957" y="3.084275" z="1.722271" rx="2.346159" ry="0.009360" rz="3.141593" type="SHAPE" materialIndex="22">
+                        <element elementName="pipe2HydraulicPunch" x="0.005104" y="3.427260" z="1.386116" rx="2.346159" ry="0.009360" rz="3.141593" type="SHAPE" materialIndex="27"/>
+                        <element elementName="visuals_8" x="-0.017963" y="0.377276" z="0.000021" rx="2.346159" ry="0.009360" rz="3.141593" type="TRANSFORM_GROUP">
+                            <element elementName="armBase3" x="0.092569" y="3.492671" z="0.814739" rx="2.346159" ry="0.009360" rz="3.141593" type="SHAPE" materialIndex="27"/>
                         </element>
                     </element>
-                    <element elementName="pipeHydraulic" x="0.001957" y="3.084275" z="1.722271" rx="2.346159" ry="0.009360" rz="-3.141593" type="SHAPE" materialIndex="22" diff="gen_singleColorTexture_0_4286479998">
-                        <element elementName="pipeHydraulicPunch" x="0.005104" y="3.427260" z="1.386116" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
-                        <element elementName="visuals_9" x="-0.017963" y="0.377276" z="0.000021" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                            <element elementName="armBase3_1" x="0.092569" y="3.492671" z="0.814739" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
+                    <element elementName="pipeHydraulic" x="0.001957" y="3.084275" z="1.722271" rx="2.346159" ry="0.009360" rz="3.141593" type="SHAPE" materialIndex="22">
+                        <element elementName="pipeHydraulicPunch" x="0.005104" y="3.427260" z="1.386116" rx="2.346159" ry="0.009360" rz="3.141593" type="SHAPE" materialIndex="27"/>
+                        <element elementName="visuals_9" x="-0.017963" y="0.377276" z="0.000021" rx="2.346159" ry="0.009360" rz="3.141593" type="TRANSFORM_GROUP">
+                            <element elementName="armBase3_1" x="0.092569" y="3.492671" z="0.814739" rx="2.346159" ry="0.009360" rz="3.141593" type="SHAPE" materialIndex="27"/>
                         </element>
                     </element>
                 </element>
             </element>
-            <element elementName="hydraulics" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="feederHouseHydraulic" x="0.000000" y="0.699607" z="2.480640" rx="0.172075" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="feederHouseHydraulicPunch" x="0.000000" y="0.602492" z="3.039433" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+            <element elementName="hydraulics" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="feederHouseHydraulic" x="0.000000" y="0.699607" z="2.480640" rx="0.172075" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="feederHouseHydraulicPunch" x="0.000000" y="0.602492" z="3.039433" rx="0.172075" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
                 </element>
             </element>
-            <element elementName="fillUnit" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="exactFillRootNodeAdditives" x="-1.116700" y="2.518630" z="2.375330" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
+            <element elementName="fillUnit" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="exactFillRootNodeAdditives" x="-1.116700" y="2.518630" z="2.375330" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
             </element>
-            <element elementName="visuals_10" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="licensePlateFront" x="-0.786109" y="3.552308" z="3.840820" rx="0.283438" ry="-0.089641" rz="-0.000000" type="TRANSFORM_GROUP"/>
-                <element elementName="licensePlateBack" x="0.004309" y="1.617418" z="-3.034470" rx="0.000000" ry="3.141593" rz="0.000000" type="TRANSFORM_GROUP"/>
-                <element elementName="exterior_02_vis" x="0.660108" y="1.255355" z="2.750610" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
-                <element elementName="window_blackFrameInterior" x="0.006870" y="3.028278" z="3.112720" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="44" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/rasterPattern_diffuse.png"/>
-                <element elementName="window_blackFrameExterior" x="0.005427" y="3.041778" z="3.111770" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="44" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/rasterPattern_diffuse.png"/>
-                <element elementName="metalFrame" x="0.004308" y="2.800348" z="-0.278506" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="29" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960Frame_diffuse.png"/>
-                <element elementName="metalFrameInside" x="0.004308" y="2.800348" z="-0.278506" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="29" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960Frame_diffuse.png"/>
-                <element elementName="screws_decal" x="-1.429640" y="0.724021" z="2.691600" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="7" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryDecals_diffuse.png"/>
-                <element elementName="ext_blackHoles_decal" x="0.401392" y="1.836308" z="1.331220" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="26" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960DecalHoles_diffuse.png"/>
-                <element elementName="exterior_decals_1" x="0.024415" y="2.203708" z="0.582849" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="28" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960ExteriorDecals_diffuse.png"/>
-                <element elementName="exterior01Shared_decals" x="0.000287" y="2.236768" z="0.460743" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="9" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryStickers_diffuse.png"/>
-                <element elementName="exterior02Shared_decals" x="0.578845" y="1.533898" z="3.040840" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="8" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/assets/assetLibraryStickers_diffuse.png"/>
-                <element elementName="rearEngine" x="0.004308" y="2.248718" z="-2.417060" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="21" diff="gen_singleColorTexture_0_4286479998"/>
-                <element elementName="interior" x="0.023941" y="3.070018" z="3.083270" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="30" diff="gen_singleColorTexture_0_4286479998">
-                    <element elementName="interiorJoint" x="0.023941" y="2.395018" z="3.083270" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-                    <element elementName="interio_steereingWheel" x="0.023941" y="3.070018" z="3.083270" rx="0.017453" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="46" diff="gen_singleColorTexture_0_4286479998"/>
+            <element elementName="visuals_10" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="licensePlateFront" x="-0.786109" y="3.552308" z="3.840820" rx="0.283438" ry="-0.089641" rz="0.000000" type="TRANSFORM_GROUP"/>
+                <element elementName="licensePlateBack" x="0.004309" y="1.617418" z="-3.034470" rx="3.141593" ry="-0.000000" rz="3.141593" type="TRANSFORM_GROUP"/>
+                <element elementName="exterior_02_vis" x="0.660108" y="1.255355" z="2.750610" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27"/>
+                <element elementName="window_blackFrameInterior" x="0.006870" y="3.028278" z="3.112720" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="44"/>
+                <element elementName="window_blackFrameExterior" x="0.005427" y="3.041778" z="3.111770" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="44"/>
+                <element elementName="metalFrame" x="0.004308" y="2.800348" z="-0.278506" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="29"/>
+                <element elementName="metalFrameInside" x="0.004308" y="2.800348" z="-0.278506" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="29"/>
+                <element elementName="screws_decal" x="-1.429640" y="0.724021" z="2.691600" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="7"/>
+                <element elementName="ext_blackHoles_decal" x="0.401392" y="1.836308" z="1.331220" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="26"/>
+                <element elementName="exterior_decals_1" x="0.024415" y="2.203708" z="0.582849" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="28"/>
+                <element elementName="exterior01Shared_decals" x="0.000287" y="2.236768" z="0.460743" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="9"/>
+                <element elementName="exterior02Shared_decals" x="0.578845" y="1.533898" z="3.040840" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="8"/>
+                <element elementName="rearEngine" x="0.004308" y="2.248718" z="-2.417060" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="21"/>
+                <element elementName="interior" x="0.023941" y="3.070018" z="3.083270" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="30">
+                    <element elementName="interiorJoint" x="0.023941" y="2.395018" z="3.083270" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+                    <element elementName="interio_steereingWheel" x="0.023941" y="3.070018" z="3.083270" rx="0.017453" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="46"/>
                 </element>
-                <element elementName="interior_decals_1" x="0.418823" y="2.953958" z="2.959550" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="31" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguar960InteriorDecals_diffuse.png"/>
-                <element elementName="windows" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="windowInside_glass" x="0.010195" y="3.480848" z="2.407230" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="50" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/window_diffuse.png"/>
-                    <element elementName="windowInside_glass1" x="0.772197" y="3.041268" z="3.191060" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="50" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/window_diffuse.png"/>
-                    <element elementName="windowInside_glass2" x="0.007740" y="3.011048" z="3.688610" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="50" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/window_diffuse.png"/>
-                    <element elementName="windowInside_glass3" x="-0.766743" y="3.041728" z="3.191550" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="50" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/window_diffuse.png"/>
+                <element elementName="interior_decals_1" x="0.418823" y="2.953958" z="2.959550" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="31"/>
+                <element elementName="windows" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                    <element elementName="windowInside_glass" x="0.010195" y="3.480848" z="2.407230" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="50"/>
+                    <element elementName="windowInside_glass1" x="0.772197" y="3.041268" z="3.191060" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="50"/>
+                    <element elementName="windowInside_glass2" x="0.007740" y="3.011048" z="3.688610" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="50"/>
+                    <element elementName="windowInside_glass3" x="-0.766743" y="3.041728" z="3.191550" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="50"/>
                 </element>
-                <element elementName="interiorLightStatic" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="25" diff="gen_singleColorTexture_0_4286479998"/>
-                <element elementName="interiorLight1Static" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="10" diff="C:/Program Files (x86)/Farming Simulator 2022/data/shared/clearPlastic_diffuse.png"/>
-                <element elementName="jaguarDecal" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="41" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguarEngineConfigurationsDecal_diffuse.png"/>
-                <element elementName="gpsDisplay" x="0.023941" y="3.070018" z="3.083270" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="49" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/tucano580/tucano580InteriorDecals_diffuse.png"/>
-                <element elementName="cameraDisplay" x="0.023941" y="3.070018" z="3.083270" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="49" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/tucano580/tucano580InteriorDecals_diffuse.png"/>
-                <element elementName="frontCamera" x="0.004308" y="2.248718" z="-2.417060" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="18" diff="gen_singleColorTexture_0_4286479998"/>
+                <element elementName="interiorLightStatic" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="25"/>
+                <element elementName="interiorLight1Static" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="10"/>
+                <element elementName="jaguarDecal" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="41"/>
+                <element elementName="gpsDisplay" x="0.023941" y="3.070018" z="3.083270" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="49"/>
+                <element elementName="cameraDisplay" x="0.023941" y="3.070018" z="3.083270" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="49"/>
+                <element elementName="frontCamera" x="0.004308" y="2.248718" z="-2.417060" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="18"/>
             </element>
-            <element elementName="configurations" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="motorConfiguration_decal" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="41" diff="C:/Program Files (x86)/Farming Simulator 2022/data/vehicles/claas/jaguar960TT/jaguarEngineConfigurationsDecal_diffuse.png"/>
+            <element elementName="configurations" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="motorConfiguration_decal" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="41"/>
             </element>
-            <element elementName="rootJoint" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+            <element elementName="rootJoint" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
         </element>
-        <element elementName="skinnedMesh_2" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-            <element elementName="hoses" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
-            <element elementName="rubber" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="30" diff="gen_singleColorTexture_0_4286479998"/>
-            <element elementName="pipe01Hoses" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="cable01Short" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="40" diff="gen_singleColorTexture_0_4286479998"/>
-                <element elementName="cable02Short" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
+        <element elementName="skinnedMesh_2" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+            <element elementName="hoses" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27"/>
+            <element elementName="rubber" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="30"/>
+            <element elementName="pipe01Hoses" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="cable01Short" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="40"/>
+                <element elementName="cable02Short" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27"/>
             </element>
-            <element elementName="pipe02Hoses" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                <element elementName="cable01Long" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="40" diff="gen_singleColorTexture_0_4286479998"/>
-                <element elementName="cable02Long" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
+            <element elementName="pipe02Hoses" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+                <element elementName="cable01Long" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="40"/>
+                <element elementName="cable02Long" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27"/>
             </element>
-            <element elementName="plane" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="27" diff="gen_singleColorTexture_0_4286479998"/>
-            <element elementName="hosesBack" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="22" diff="gen_singleColorTexture_0_4286479998"/>
+            <element elementName="plane" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27"/>
+            <element elementName="hosesBack" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="22"/>
         </element>
-        <element elementName="collisions_1" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-            <element elementName="colPart" x="0.000000" y="3.473310" z="3.298770" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998"/>
+        <element elementName="collisions_1" x="0.000000" y="0.000000" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+            <element elementName="colPart" x="0.000000" y="3.473310" z="3.298770" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
         </element>
     </element>
-    <element elementName="jaguar960TT_axis_component2" x="0.000000" y="0.809468" z="-1.526890" rx="0.000000" ry="0.000000" rz="0.000000" type="SHAPE" materialIndex="42" diff="gen_singleColorTexture_0_4286479998">
-        <element elementName="axisBack" x="0.003816" y="0.884707" z="-1.549584" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-        <element elementName="axisBackLeft" x="1.101600" y="0.796327" z="-1.484670" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-            <element elementName="wheelBackLeft" x="1.199004" y="0.795928" z="-1.485759" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-            <element elementName="steeringBarLeft" x="1.010411" y="0.882042" z="-1.250343" rx="3.134245" ry="-1.411277" rz="3.141593" type="TRANSFORM_GROUP"/>
-            <element elementName="axisBackLeftJoint" x="1.101600" y="0.796327" z="-1.484670" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+    <element elementName="jaguar960TT_axis_component2" x="0.000000" y="0.809468" z="-1.526890" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42">
+        <element elementName="axisBack" x="0.003816" y="0.884707" z="-1.549584" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+        <element elementName="axisBackLeft" x="1.101600" y="0.796327" z="-1.484670" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+            <element elementName="wheelBackLeft" x="1.199004" y="0.795928" z="-1.485759" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+            <element elementName="steeringBarLeft" x="1.010411" y="0.882042" z="-1.250343" rx="3.134245" ry="-1.411277" rz="-3.141593" type="TRANSFORM_GROUP"/>
+            <element elementName="axisBackLeftJoint" x="1.101600" y="0.796327" z="-1.484670" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
         </element>
-        <element elementName="axisBackRight" x="-1.093970" y="0.796327" z="-1.484670" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-            <element elementName="wheelBackRight" x="-1.199267" y="0.795928" z="-1.485759" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
-            <element elementName="steeringBarRight" x="-1.010412" y="0.882042" z="-1.250343" rx="3.134332" ry="1.413485" rz="3.141593" type="TRANSFORM_GROUP"/>
-            <element elementName="axisBackRightJoint" x="-1.093970" y="0.796327" z="-1.484670" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+        <element elementName="axisBackRight" x="-1.093970" y="0.796327" z="-1.484670" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+            <element elementName="wheelBackRight" x="-1.199267" y="0.795928" z="-1.485759" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
+            <element elementName="steeringBarRight" x="-1.010412" y="0.882042" z="-1.250343" rx="3.134332" ry="1.413484" rz="-3.141593" type="TRANSFORM_GROUP"/>
+            <element elementName="axisBackRightJoint" x="-1.093970" y="0.796327" z="-1.484670" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
         </element>
-        <element elementName="steeringBar" x="0.000000" y="0.809468" z="-1.526890" rx="0.000000" ry="0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-            <element elementName="steeringBarLeftRef" x="0.475685" y="0.886026" z="-1.336373" rx="3.134245" ry="-1.411277" rz="3.141593" type="TRANSFORM_GROUP"/>
-            <element elementName="steeringBarRightRef" x="-0.468054" y="0.886026" z="-1.336373" rx="3.134332" ry="1.413485" rz="3.141593" type="TRANSFORM_GROUP"/>
+        <element elementName="steeringBar" x="0.000000" y="0.809468" z="-1.526890" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
+            <element elementName="steeringBarLeftRef" x="0.475685" y="0.886026" z="-1.336373" rx="3.134245" ry="-1.411277" rz="-3.141593" type="TRANSFORM_GROUP"/>
+            <element elementName="steeringBarRightRef" x="-0.468054" y="0.886026" z="-1.336373" rx="3.134332" ry="1.413484" rz="-3.141593" type="TRANSFORM_GROUP"/>
         </element>
     </element>
 </ExportTest>

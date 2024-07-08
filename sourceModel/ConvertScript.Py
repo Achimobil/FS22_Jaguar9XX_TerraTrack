@@ -286,7 +286,13 @@ def parse_node_attributes(scene_element):
             object['I3D_trigger'] = False
         
             
-        castShadowMap = scene_element.get('castShadowMap')
+        visibility = scene_element.get('visibility')
+        if visibility != None and visibility == "false":
+            object.hide_set(True)
+        else:
+            object.hide_set(False)
+            
+        
         print(object.type)
         if object.type == 'LIGHT':
             # farbe vom Licht
@@ -297,6 +303,7 @@ def parse_node_attributes(scene_element):
                 object.data.color.g = float(colorArray[1]);
                 object.data.color.b = float(colorArray[2]);
             
+            castShadowMap = scene_element.get('castShadowMap')
             if castShadowMap != None and castShadowMap == "true":
                 object.data.use_shadow = True;
             else:
