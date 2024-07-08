@@ -64,7 +64,6 @@ def process_object(obj_elem, materialIdToName, level=0, parent = None):
                 light = bpy.context.object
                 light.name = name
                 light.rotation_euler = (rotationX+(radians(90.0)),rotationZ,rotationY)
-                #light.data.color = obj_elem.get('color')
                 light.data.energy = float(obj_elem.get('energie'))
             
     ## parents need to be set after all other stuff for the childs because of content will move otherwise
@@ -216,7 +215,7 @@ def process_material(materialNode, materialIdToName, fileIdToName):
 def parse_node_attributes(scene_element):
     
     name = scene_element.get('name')
-    print(name)
+    #print(name)
     object = bpy.data.objects.get(name)
 
     if object is not None:
