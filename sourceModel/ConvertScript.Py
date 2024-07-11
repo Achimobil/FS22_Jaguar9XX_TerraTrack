@@ -15,15 +15,15 @@ def process_object(obj_elem, materialIdToName, level=0, parent = None):
 	
 	
 	# read location from xml
-	translationX = float(obj_elem.get('x'));
-	translationY = float(obj_elem.get('y'));
-	translationZ = float(obj_elem.get('z'));
+	translationX = round(float(obj_elem.get('x')), 4);
+	translationY = round(float(obj_elem.get('y')), 4);
+	translationZ = round(float(obj_elem.get('z')), 4);
 	translationString = str(translationX) + "|" + str(translationY) + "|" + str(translationZ)
 	
 	# read rotation from xml and add to parent rotation
-	rotationX = float(obj_elem.get('rx'));
-	rotationY = float(obj_elem.get('ry'));
-	rotationZ = float(obj_elem.get('rz'));
+	rotationX = round(float(obj_elem.get('rx')), 4);
+	rotationY = round(float(obj_elem.get('ry')), 4);
+	rotationZ = round(float(obj_elem.get('rz')), 4);
 	rotationString = str(rotationX) + "|" + str(rotationY) + "|" + str(rotationZ)
 		
 			
@@ -49,8 +49,7 @@ def process_object(obj_elem, materialIdToName, level=0, parent = None):
 		else:
 			#print(obj_type)
 			if obj_type == "TRANSFORM_GROUP":
-#   			 print(name + " create Empty at " + translationString + " with rotation " + rotationString)
-				#use total position to to create the transform group at cursor
+#   			print(name + " create Empty at " + translationString + " with rotation " + rotationString)
 				bpy.context.scene.cursor.location = (translationX,translationZ*-1,translationY)
 				bpy.ops.object.empty_add(type='PLAIN_AXES', align='CURSOR')
 				for obj in bpy.context.selected_objects:
@@ -59,12 +58,18 @@ def process_object(obj_elem, materialIdToName, level=0, parent = None):
 			
 			if obj_type == "LIGHT_SOURCE":
 #   			 print(name + " create Light at " + translationString + " with rotation " + rotationString)
-				#use total position to to create the transform group at cursor
 				bpy.ops.object.light_add(type=obj_elem.get('lightType'), location=(translationX,translationZ*-1,translationY))
 				light = bpy.context.object
 				light.name = name
 				light.rotation_euler = (rotationX+(radians(90.0)),rotationZ,rotationY)
 				light.data.energy = float(obj_elem.get('energie'))
+
+			if obj_type == "CAMERA":
+#   			print(name + " create cam at " + translationString + " with rotation " + rotationString)
+				bpy.ops.object.camera_add(enter_editmode=False, location=(translationX,translationZ*-1,translationY))
+				cam = bpy.context.object
+				cam.name = name
+				cam.rotation_euler = (rotationX+(radians(90.0)),rotationZ,rotationY)
 			
 	## parents need to be set after all other stuff for the childs because of content will move otherwise
 	currentObject = bpy.data.objects.get(name);
@@ -321,6 +326,29 @@ def parse_node_attributes(scene_element):
 			if dropOff != None :
 				object.data.spot_blend = float(dropOff)/5.0
 		
+		print(object.type)
+		if object.type == 'CAMERA':
+			fov = scene_element.get('fov')
+			if fov != None:
+				object.data.lens = float(fov)
+				
+			nearClip = scene_element.get('nearClip')
+			if nearClip != None:
+				object.data.clip_start = float(nearClip)
+				
+			farClip = scene_element.get('farClip')
+			if farClip != None:
+				object.data.clip_end = float(farClip)
+				
+			orthographic = scene_element.get('orthographic')
+			if orthographic != None and orthographic == "true":
+				object.data.type = 'ORTHO'
+			else:
+				object.data.type = 'PERSP'
+				
+			orthographicHeight = scene_element.get('orthographicHeight')
+			if orthographicHeight != None:
+				object.data.ortho_scale = float(orthographicHeight)
 		
 	# call recursive
 	for child_elem in scene_element.findall('*'):
@@ -391,7 +419,7 @@ originalXmlTree = ET.parse(xml_file_path)
 originalXmlRoot = originalXmlTree.getroot()
 
 for obj in originalXmlRoot.findall('i3dMappings/i3dMapping'):
-#	print(str(obj));
+#   print(str(obj));
 	process_xmlNodeNames(obj)
 
 print("");
