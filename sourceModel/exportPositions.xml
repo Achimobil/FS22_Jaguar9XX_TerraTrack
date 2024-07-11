@@ -12,7 +12,7 @@
             </element>
             <element elementName="cameras" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
                 <element elementName="outdoorCameraTarget" x="0.000000" y="2.377288" z="1.200000" rx="2.722714" ry="-0.000000" rz="3.141593" type="TRANSFORM_GROUP">
-                    <element elementName="outdoorCamera1" x="1.331968" y="5.117261" z="6.056944" rx="-0.610834" ry="0.515228" rz="0.000036" type="CAMERA"/>
+                    <element elementName="outdoorCamera1" x="-0.000001" y="6.851392" z="-8.848999" rx="2.722714" ry="-0.000000" rz="3.141593" type="CAMERA"/>
                 </element>
                 <element elementName="indoorCamera1" x="0.000000" y="3.515028" z="2.748130" rx="2.670354" ry="-0.000000" rz="3.141593" type="CAMERA"/>
                 <element elementName="cameraRaycastNode1" x="0.000000" y="2.065348" z="4.290730" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
@@ -24,9 +24,9 @@
                 <element elementName="sharedLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
                     <element elementName="extinguisher" x="0.903364" y="2.214968" z="1.269440" rx="-1.570796" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="244"/>
                     <element elementName="yellowRound_02" x="-1.513450" y="0.695646" z="0.318991" rx="0.000000" ry="-0.000000" rz="1.570796" type="SHAPE" materialIndex="248"/>
-                    <element elementName="yellowRound_02" x="0.836965" y="1.566018" z="2.727420" rx="0.000000" ry="0.000000" rz="-1.570796" type="SHAPE" materialIndex="248"/>
+                    <element elementName="yellowRound_02_1" x="0.836965" y="1.566018" z="2.727420" rx="0.000000" ry="0.000000" rz="-1.570796" type="SHAPE" materialIndex="248"/>
                     <element elementName="redRound_02" x="-1.047660" y="1.008705" z="-2.774630" rx="-1.672401" ry="0.486984" rz="0.001653" type="SHAPE" materialIndex="248"/>
-                    <element elementName="redRound_02" x="1.066410" y="1.008665" z="-2.774970" rx="-1.700131" ry="-0.470298" rz="0.095094" type="SHAPE" materialIndex="248"/>
+                    <element elementName="redRound_02_1" x="1.066410" y="1.008665" z="-2.774970" rx="-1.700131" ry="-0.470298" rz="0.095094" type="SHAPE" materialIndex="248"/>
                 </element>
                 <element elementName="staticLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
                     <element elementName="reverseLightStatic" x="0.000317" y="2.296578" z="-2.901250" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
@@ -52,7 +52,7 @@
                     <element elementName="licensePlateLightStatic" x="0.003773" y="1.618038" z="-3.056270" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="38"/>
                 </element>
                 <element elementName="defaultLights" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="frontLightLow" x="0.000000" y="2.107058" z="3.638150" rx="2.879793" ry="-0.000000" rz="-3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="20.000000"/>
+                    <element elementName="frontLightLow" x="0.000000" y="2.107058" z="3.638150" rx="2.879793" ry="-0.000000" rz="3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="20.000000"/>
                     <element elementName="highBeamLow" x="0.000000" y="2.107058" z="3.638150" rx="2.967060" ry="-0.000000" rz="3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="30.000000"/>
                     <element elementName="frontLightHigh" x="-1.104000" y="2.102938" z="3.311240" rx="2.879793" ry="0.139626" rz="-3.141593" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000">
                         <element elementName="frontLightHigh1" x="1.104200" y="2.102938" z="3.311240" rx="2.880135" ry="-0.139627" rz="-3.141592" type="LIGHT_SOURCE" lightType="SPOT" energie="25.000000"/>
@@ -105,7 +105,7 @@
                     <element elementName="trailerAttacherJointBack" x="0.000000" y="1.174943" z="-3.064040" rx="-0.000000" ry="1.570796" rz="0.000000" type="TRANSFORM_GROUP"/>
                 </element>
                 <element elementName="connectionHoses" x="0.000000" y="0.377288" z="0.000000" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                    <element elementName="hydraulic01_out" x="1.226670" y="1.988628" z="3.159220" rx="3.012124" ry="-0.526636" rz="-3.141593" type="TRANSFORM_GROUP"/>
+                    <element elementName="hydraulic01_out" x="1.226670" y="1.988628" z="3.159220" rx="3.012126" ry="-0.526636" rz="3.141593" type="TRANSFORM_GROUP"/>
                     <element elementName="hydraulic02_in" x="1.149060" y="1.971048" z="3.197770" rx="3.012126" ry="-0.526636" rz="3.141593" type="TRANSFORM_GROUP"/>
                     <element elementName="electric_in" x="1.012410" y="1.949018" z="3.285770" rx="3.141593" ry="-0.526636" rz="3.141593" type="TRANSFORM_GROUP"/>
                     <element elementName="electric_back" x="-0.265645" y="1.064697" z="-2.936400" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
@@ -334,7 +334,7 @@
                             <element elementName="pipeArm01Long" x="0.012746" y="2.826949" z="-4.037161" rx="2.048896" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27">
                                 <element elementName="pipeArm02Long" x="0.009984" y="2.430221" z="-4.257455" rx="1.308330" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="27">
                                     <element elementName="effect_1" x="0.009361" y="2.324975" z="-4.122445" rx="1.301664" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
-                                        <element elementName="pipeEffect3Long" x="0.009361" y="2.324975" z="-4.122445" rx="-1.301664" ry="0.000000" rz="-3.141593" type="SHAPE" materialIndex="13"/>
+                                        <element elementName="pipeEffect3Long" x="0.009361" y="2.324975" z="-4.122445" rx="-1.301664" ry="-0.000000" rz="3.141593" type="SHAPE" materialIndex="13"/>
                                         <element elementName="pipeRaycastNodeLong" x="-0.003119" y="2.158008" z="-4.076643" rx="-0.269133" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
                                     </element>
                                     <element elementName="visuals_5" x="0.011953" y="3.138775" z="1.963335" rx="-0.000007" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
