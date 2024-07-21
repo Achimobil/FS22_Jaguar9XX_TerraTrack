@@ -6,7 +6,7 @@ import mathutils
 import math
 from math import radians
 
-def process_object(obj_elem, materialIdToName, materialNeedSecondUv, level=0, parent = None):
+def process_object(obj_elem, materialIdToName, materialNeedSpecial, level=0, parent = None):
     #print(level)
     name = obj_elem.get('elementName')
     currentObject = None
@@ -86,10 +86,10 @@ def process_object(obj_elem, materialIdToName, materialNeedSecondUv, level=0, pa
             # no slots
             currentObject.data.materials.append(mat)
 
-        # wenn erforderlich, 2nd UV einfügen aus materialNeedSecondUv
-        if materialNeedSecondUv[materialIdToName[materialIndex]] == True:
-            print("found")
-            print(str(name));
+        # wenn erforderlich, 2nd UV einfügen aus materialNeedSpecial
+        if materialNeedSpecial[materialIdToName[materialIndex]] == 'SecondUv':
+#            print("found")
+#            print(str(name));
             currentObject.data.uv_layers.new(name='NewUVMap')
             
     # now put the right parent to the current object
@@ -99,7 +99,7 @@ def process_object(obj_elem, materialIdToName, materialNeedSecondUv, level=0, pa
     
     if level < 50:
         for child_elem in obj_elem.findall('*'):
-            process_object(child_elem, materialIdToName, materialNeedSecondUv, level+1, currentObject)
+            process_object(child_elem, materialIdToName, materialNeedSpecial, level+1, currentObject)
 
             
             
@@ -118,10 +118,10 @@ def process_files(fileNode, fileIdToName):
         
         
             
-def process_material(materialNode, materialIdToName, fileIdToName, materialNeedSecondUv):
+def process_material(materialNode, materialIdToName, fileIdToName, materialNeedSpecial):
     name = materialNode.get('name')
 
-    materialNeedSecondUv[name] = False;
+    materialNeedSpecial[name] = None;
     
     # Get material
     mat = bpy.data.materials.get(name)
@@ -143,7 +143,13 @@ def process_material(materialNode, materialIdToName, fileIdToName, materialNeedS
     if customShaderVariation != None:
         mat['customShaderVariation'] = customShaderVariation
         if customShaderVariation == 'Decal_uvScroll':
-            materialNeedSecondUv[name] = True;
+            materialNeedSpecial[name] = 'SecondUv';
+        if customShaderVariation == 'Decal':
+            materialNeedSpecial[name] = 'SecondUv';
+        if customShaderVariation == 'slider_customEmissiveMap':
+            materialNeedSpecial[name] = 'SecondUv';
+        if customShaderVariation == 'staticLight':
+            materialNeedSpecial[name] = 'staticLight';
         
     alphaBlending = materialNode.get('alphaBlending')
     if alphaBlending != None and alphaBlending == "true":
@@ -396,13 +402,13 @@ print("");
 print("Create Materials from i3d");
 
 materialIdToName = {}
-materialNeedSecondUv = {}
+materialNeedSpecial = {}
 
 for obj in modelRoot.findall('Materials/Material'):
-    process_material(obj, materialIdToName, fileIdToName, materialNeedSecondUv)
+    process_material(obj, materialIdToName, fileIdToName, materialNeedSpecial)
     
 #print(str(materialIdToName));
-#print(str(materialNeedSecondUv));
+print(str(materialNeedSpecial));
 
 print("");
 print("Start XML correction");
@@ -412,7 +418,7 @@ tree = ET.parse(xml_file_path)
 root = tree.getroot()
 # Hauptskript: Durchlaufe alle Objekte in der Szene
 for obj in root.findall('element'):
-    process_object(obj, materialIdToName, materialNeedSecondUv)
+    process_object(obj, materialIdToName, materialNeedSpecial)
 
 
 print("");
