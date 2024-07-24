@@ -50,11 +50,15 @@ def process_object(obj_elem, materialIdToName, materialNeedSpecial, level=0, par
             #print(obj_type)
             if obj_type == "TRANSFORM_GROUP":
 #               print(name + " create Empty at " + translationString + " with rotation " + rotationString)
-                bpy.context.scene.cursor.location = (translationX,translationZ*-1,translationY)
-                bpy.ops.object.empty_add(type='PLAIN_AXES', align='CURSOR')
+#                bpy.context.scene.cursor.location = (translationX,translationZ*-1,translationY)
+#                bpy.ops.object.empty_add(type='PLAIN_AXES', align='CURSOR')
+#                bpy.ops.object.empty_add(type='PLAIN_AXES', align='WORLD', location=(translationX,translationZ*-1,translationY), rotation=(rotationX,rotationY,rotationZ))
+                bpy.ops.object.empty_add(type='PLAIN_AXES', align='WORLD', location=(translationX,translationZ*-1,translationY))
                 for obj in bpy.context.selected_objects:
                     obj.name = name;
-                    obj.rotation_euler = (rotationX,rotationZ*-1,rotationY)
+#                    obj.rotation_euler = (rotationX,rotationY,rotationZ)
+                    obj.rotation_euler.rotate(Euler( (rotationX,rotationY,rotationZ), "XYZ"))
+#                    obj.rotation_euler = (rotationX,rotationZ*-1,rotationY)
             
             if obj_type == "LIGHT_SOURCE":
 #                print(name + " create Light at " + translationString + " with rotation " + rotationString)
@@ -88,9 +92,17 @@ def process_object(obj_elem, materialIdToName, materialNeedSpecial, level=0, par
 
         # wenn erforderlich, 2nd UV einfügen aus materialNeedSpecial
         if materialNeedSpecial[materialIdToName[materialIndex]] == 'SecondUv':
-#            print("found")
-#            print(str(name));
             currentObject.data.uv_layers.new(name='NewUVMap')
+            
+        # static lights alle weiß machen, andere farben später von hand, da ich in der i3d keine Farbe befunden habe
+        if materialNeedSpecial[materialIdToName[materialIndex]] == 'staticLight':
+                        
+            #for obj in context.selected_objects:
+            if len(currentObject.data.vertex_colors) == 0:
+                currentObject.data.vertex_colors.new(name = 'Col')    #default name
+            layer = currentObject.data.vertex_colors[0]
+            for vert in layer.data:
+                vert.color = [0.3,0.3,0.3,1.0]
             
     # now put the right parent to the current object
     if parent != None and currentObject != None:
@@ -147,6 +159,8 @@ def process_material(materialNode, materialIdToName, fileIdToName, materialNeedS
         if customShaderVariation == 'Decal':
             materialNeedSpecial[name] = 'SecondUv';
         if customShaderVariation == 'slider_customEmissiveMap':
+            materialNeedSpecial[name] = 'SecondUv';
+        if customShaderVariation == 'secondUV_colorMask':
             materialNeedSpecial[name] = 'SecondUv';
         if customShaderVariation == 'staticLight':
             materialNeedSpecial[name] = 'staticLight';
@@ -408,7 +422,7 @@ for obj in modelRoot.findall('Materials/Material'):
     process_material(obj, materialIdToName, fileIdToName, materialNeedSpecial)
     
 #print(str(materialIdToName));
-print(str(materialNeedSpecial));
+#print(str(materialNeedSpecial));
 
 print("");
 print("Start XML correction");
