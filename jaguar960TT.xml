@@ -197,7 +197,7 @@
                 <raycastNode node="cameraRaycastNode2"/>
                 <raycastNode node="cameraRaycastNode3"/>
             </camera>
-            <camera node="indoorCamera1" rotatable="true" limit="true" rotMinX="-1.1" rotMaxX="0.4" transMin="0" transMax="0" useMirror="true" isInside="true" shadowFocusBox="shadowFocusBox" suspensionNodeIndex="1" positionSmoothingParameter="0.256"/>
+            <camera node="xindoorCamera1" rotatable="true" limit="true" rotMinX="-1.1" rotMaxX="0.4" transMin="0" transMax="0" useMirror="true" isInside="true" shadowFocusBox="shadowFocusBox" suspensionNodeIndex="1" positionSmoothingParameter="0.256"/>
         </cameras>
 
         <characterNode node="playerSkin" cameraMinDistance="0.5" spineRotation="-90 0 90" >
@@ -257,31 +257,31 @@
             <state lightTypes="0 1 2 4" />
         </states>
 
-        <!-- <realLights> -->
-            <!-- <low> -->
-                <!-- <light node="frontLightLow"         lightTypes="0" excludedLightTypes="2 3" /> -->
-                <!-- <light node="workLightBackLowShort" lightTypes="4"/> -->
-                <!-- <light node="workLightBackLowLong"  lightTypes="4"/> -->
-                <!-- <light node="workLightBackHigh1"    lightTypes="1"/> -->
-                <!-- <light node="workLightFrontLow"     lightTypes="2"/> -->
-                <!-- <light node="highBeamLow"           lightTypes="3" /> -->
-            <!-- </low> -->
-            <!-- <high> -->
-                <!-- <light node="frontLightHigh"        lightTypes="0" excludedLightTypes="2 3" /> -->
-                <!-- <light node="backLightsHigh1"       lightTypes="0"/> -->
-                <!-- <light node="licensePlateLightHigh" lightTypes="0"/> -->
-                <!-- <light node="workLightBackHigh1"    lightTypes="1"/> -->
-                <!-- <light node="workLightFrontHigh1"   lightTypes="2"/> -->
-                <!-- <light node="highBeamHigh"          lightTypes="3"/> -->
-                <!-- <light node="workLightBackLowShort" lightTypes="4"/> -->
-                <!-- <light node="workLightBackLowLong"  lightTypes="4"/> -->
-                <!-- <brakeLight node="backLightsHigh1" /> -->
-                <!-- <turnLightLeft node="turnLightLeftFront" /> -->
-                <!-- <turnLightRight node="turnLightRightFront" /> -->
-                <!-- <reverseLight node="reverseLightHigh1" /> -->
-                <!-- <interiorLight node="interiorScreenLight"/> -->
-            <!-- </high> -->
-        <!-- </realLights> -->
+        <realLights>
+            <low>
+                <light node="frontLightLow"         lightTypes="0" excludedLightTypes="2 3" />
+                <light node="workLightBackLowShort" lightTypes="4"/>
+                <light node="workLightBackLowLong"  lightTypes="4"/>
+                <light node="workLightBackHigh1"    lightTypes="1"/>
+                <light node="workLightFrontLow"     lightTypes="2"/>
+                <light node="highBeamLow"           lightTypes="3" />
+            </low>
+            <high>
+                <light node="frontLightHigh"        lightTypes="0" excludedLightTypes="2 3" />
+                <light node="backLightsHigh1"       lightTypes="0"/>
+                <light node="licensePlateLightHigh" lightTypes="0"/>
+                <light node="workLightBackHigh1"    lightTypes="1"/>
+                <light node="workLightFrontHigh1"   lightTypes="2"/>
+                <light node="highBeamHigh"          lightTypes="3"/>
+                <light node="workLightBackLowShort" lightTypes="4"/>
+                <light node="workLightBackLowLong"  lightTypes="4"/>
+                <brakeLight node="backLightsHigh1" />
+                <turnLightLeft node="turnLightLeftFront" />
+                <turnLightRight node="turnLightRightFront" />
+                <reverseLight node="reverseLightHigh1" />
+                <interiorLight node="interiorScreenLight"/>
+            </high>
+        </realLights>
 
         <defaultLights>
             <defaultLight shaderNode="frontlightStatic"        lightTypes="0 3" />
@@ -778,6 +778,7 @@
         <i3dMapping id="outdoorCameraTarget" node="0>1|4|3" />
         <i3dMapping id="outdoorCamera1" node="0>1|4|3|0" />
         <i3dMapping id="shadowFocusBox" node="0>1|4|4" />
+        <i3dMapping id="xindoorCamera1" node="0>1|4|5" />
         <i3dMapping id="motorConfiguration_decal" node="0>1|5|0" />
         <i3dMapping id="exitPoint" node="0>1|6" />
         <i3dMapping id="exactFillRootNodeAdditives" node="0>1|7|0" />

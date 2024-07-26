@@ -374,11 +374,11 @@
         <Shape shapeId="3" name="jaguar960TT_vis" clipDistance="300" nodeId="235" materialIds="2" castsShadows="true" receiveShadows="true">
           <TransformGroup name="ai" nodeId="236">
             <TransformGroup name="aiCollisionNode" translation="0 0 3.8934" nodeId="237"/>
-            <Shape shapeId="4" name="trailerTrigger" translation="0 4.0069 -1.3269" kinematic="true" compound="true" trigger="true" collisionMask="1073741824" nodeId="238" materialIds="1" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="4" name="trailerTrigger" translation="0 4.0069 -1.3269" visibility="false" kinematic="true" compound="true" trigger="true" collisionMask="1073741824" nodeId="238" materialIds="1" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
           </TransformGroup>
           <TransformGroup name="attacherJoints" translation="0 0.3773 0" nodeId="239">
             <TransformGroup name="attacherJointFrontRot" translation="0 0.8781 2.7506" rotation="-4.70971 -0 0" nodeId="240">
-              <TransformGroup name="attacherJointFront" translation="0 -9.59337e-05 1.15088" rotation="-1.70818e-05 -22.9582 90.0001" nodeId="241"/>
+              <TransformGroup name="attacherJointFront" translation="0 -9.59337e-05 1.15088" rotation="90 -67.0418 -90" nodeId="241"/>
             </TransformGroup>
             <TransformGroup name="connectionHoses" nodeId="242">
               <TransformGroup name="airDoubleControl" translation="0.3128 0.8887 -2.9843" nodeId="243"/>
@@ -519,7 +519,7 @@
                   </TransformGroup>
                 </TransformGroup>
               </TransformGroup>
-              <Light name="interiorScreenLight" translation="-0.4671 0.3291 0.298" clipDistance="40" nodeId="350" type="directional" color="0.15 0.3 0.6" emitDiffuse="true" emitSpecular="true" range="0.35"/>
+              <Light name="interiorScreenLight" translation="-0.4671 0.3291 0.298" clipDistance="40" nodeId="350" type="spot" color="0.15 0.3 0.6" emitDiffuse="true" emitSpecular="true" range="0.35" coneAngle="45" dropOff="0.75"/>
               <TransformGroup name="playerSkin" translation="0.0389 0.1541 -0.00660014" rotation="5.83844 -0 0" nodeId="351"/>
               <TransformGroup name="seatJoint" visibility="false" nodeId="352"/>
               <TransformGroup name="visuals_1" nodeId="353">
