@@ -14,7 +14,7 @@
                 <element elementName="outdoorCameraTarget" x="0.000000" y="2.377288" z="1.200000" rx="2.722714" ry="-0.000000" rz="3.141593" type="TRANSFORM_GROUP">
                     <element elementName="outdoorCamera1" x="-0.000001" y="6.851392" z="-8.848999" rx="2.722714" ry="-0.000000" rz="3.141593" type="CAMERA"/>
                 </element>
-                <element elementName="indoorCamera1" x="0.000000" y="3.515028" z="2.748130" rx="2.670354" ry="-0.000000" rz="3.141593" type="CAMERA"/>
+                <element elementName="xindoorCamera1" x="0.000000" y="3.515028" z="2.748130" rx="2.670354" ry="-0.000000" rz="3.141593" type="CAMERA"/>
                 <element elementName="cameraRaycastNode1" x="0.000000" y="2.065348" z="4.290730" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
                 <element elementName="cameraRaycastNode2" x="0.000000" y="4.156338" z="2.179500" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
                 <element elementName="cameraRaycastNode3" x="0.000000" y="2.901528" z="-3.618400" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
@@ -467,7 +467,7 @@
             <element elementName="colPart" x="0.000000" y="3.473310" z="3.298770" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42"/>
         </element>
     </element>
-    <element elementName="jaguar960TT_axis_component2" x="0.000000" y="0.809468" z="-1.526890" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42">
+    <element elementName="jaguar960TT_xaxis_component2" x="0.000000" y="0.809468" z="-1.526890" rx="0.000000" ry="-0.000000" rz="0.000000" type="SHAPE" materialIndex="42">
         <element elementName="axisBack" x="0.003816" y="0.884707" z="-1.549584" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>
         <element elementName="axisBackLeft" x="1.101600" y="0.796327" z="-1.484670" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP">
             <element elementName="wheelBackLeft" x="1.199004" y="0.795928" z="-1.485759" rx="0.000000" ry="-0.000000" rz="0.000000" type="TRANSFORM_GROUP"/>

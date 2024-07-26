@@ -386,7 +386,7 @@
             <TransformGroup name="outdoorCameraTarget" translation="0 2 1.2" rotation="-24 180 0" nodeId="235">
               <Camera name="outdoorCamera1" translation="0 0 11" nodeId="236" fov="54.4322" nearClip="0.3" farClip="5000" orthographicHeight="1"/>
             </TransformGroup>
-            <Camera name="indoorCamera1" translation="0 3.13774 2.74813" rotation="-27 180 0" nodeId="237" fov="75" nearClip="0.1" farClip="5000" orthographicHeight="1"/>
+            <Camera name="xindoorCamera1" translation="0 3.13774 2.74813" rotation="-27 180 0" nodeId="237" fov="75" nearClip="0.1" farClip="5000" orthographicHeight="1"/>
             <TransformGroup name="cameraRaycastNode1" translation="0 1.68806 4.29073" nodeId="238"/>
             <TransformGroup name="cameraRaycastNode2" translation="0 3.77905 2.1795" nodeId="239"/>
             <TransformGroup name="cameraRaycastNode3" translation="0 2.52424 -3.6184" nodeId="240"/>
@@ -839,7 +839,7 @@
           <Shape shapeId="172" name="colPart" translation="0 3.47331 3.29877" visibility="false" compoundChild="true" collisionMask="2109442" density="0.001" nodeId="592" materialIds="42" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
         </TransformGroup>
       </Shape>
-      <Shape shapeId="173" name="jaguar960TT_axis_component2" translation="0 0.809468 -1.52689" dynamic="true" compound="true" collisionMask="2109442" clipDistance="300" nodeId="593" materialIds="42" castsShadows="true" receiveShadows="true" nonRenderable="true">
+      <Shape shapeId="173" name="jaguar960TT_xaxis_component2" translation="0 0.809468 -1.52689" dynamic="true" compound="true" collisionMask="2109442" clipDistance="300" nodeId="593" materialIds="42" castsShadows="true" receiveShadows="true" nonRenderable="true">
         <TransformGroup name="axisBack" translation="0.003816 0.075239 -0.022694" clipDistance="300" nodeId="594"/>
         <TransformGroup name="axisBackLeft" translation="1.1016 -0.013141 0.04222" clipDistance="300" nodeId="595">
           <TransformGroup name="wheelBackLeft" translation="0.097404 -0.000399 -0.001089" nodeId="596"/>
