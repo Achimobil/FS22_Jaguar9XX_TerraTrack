@@ -757,8 +757,8 @@
                 </TransformGroup>
                 <Shape shapeId="141" name="pipeEffect1Short" translation="-0.012 0.296 -4.32" rotation="-8.6402 -0 0" clipDistance="100" nodeId="528" materialIds="35" castsShadows="true" receiveShadows="true"/>
                 <TransformGroup name="pipeHydraulicRef" translation="-0.007 0.2853 -0.5843" rotation="-45.575 180 0.536" nodeId="529"/>
-                <Shape shapeId="142" name="pipeLightOrientationArm01Short" translation="0.1778 -0.0227001 -5.1591" rotation="-39.5795 -180 -0.000319719" clipDistance="300" nodeId="530" materialIds="27" castsShadows="true" receiveShadows="true"/>
-                <Shape shapeId="143" name="pipeLightOrientationArm02Short" translation="0.2071 0.267 -4.7707" rotation="-29.7286 -179.11 0.508924" clipDistance="300" nodeId="531" materialIds="27" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="142" name="pipeLightOrientationArm01Short" translation="0.1778 -0.0227001 -5.1591" rotation="140.502 0.00026319 -0.000316528" clipDistance="300" nodeId="530" materialIds="27" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="143" name="pipeLightOrientationArm02Short" translation="0.2071 0.267 -4.7707" rotation="29.2092 179.59 1.25626" clipDistance="300" nodeId="531" materialIds="27" castsShadows="true" receiveShadows="true"/>
                 <TransformGroup name="pipeShortJoint" translation="0 0.000299931 -0.000299931" nodeId="532"/>
                 <TransformGroup name="skinnedMesh" nodeId="533"/>
                 <Shape shapeId="144" name="spring01DecalShort" translation="-0.0035 0.1256 -5.2127" rotation="4.89879 -0 0" clipDistance="50" nodeId="534" materialIds="6" castsShadows="true" receiveShadows="true"/>
@@ -775,7 +775,7 @@
             </TransformGroup>
           </TransformGroup>
           <TransformGroup name="particles" translation="0 0.3773 0" nodeId="542">
-            <TransformGroup name="exhaustParticle1" translation="0.6559 2.8896 -1.6638" rotation="76.7301 -0.00041482 179.937" nodeId="543"/>
+            <TransformGroup name="exhaustParticle1" translation="0.6559 2.8896 -1.6638" rotation="76.7301 -180 -0.063024" nodeId="543"/>
           </TransformGroup>
           <TransformGroup name="rootJoint" nodeId="544"/>
           <TransformGroup name="visuals_10" translation="0 0.3773 0" nodeId="545">
