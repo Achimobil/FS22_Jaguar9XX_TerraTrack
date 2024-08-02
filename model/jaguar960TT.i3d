@@ -649,8 +649,8 @@
                   <Shape shapeId="92" name="armBase3" translation="-0.139874 -2.76178 -1.65369" rotation="-88.8596 0.396059 -0.915199" clipDistance="160" nodeId="445" materialIds="27" castsShadows="true" receiveShadows="true"/>
                 </TransformGroup>
               </Shape>
-              <Shape shapeId="93" name="pipeHydraulic" translation="-0.0074 0.0497 -0.2511" rotation="-44.4261 -179.623 -0.384917" clipDistance="300" nodeId="446" materialIds="2" castsShadows="true" receiveShadows="true">
-                <Shape shapeId="94" name="pipeHydraulicPunch" translation="-0.00290877 0.00935155 0.480057" rotation="-3.41509e-06 3.57518e-06 -180" clipDistance="160" nodeId="447" materialIds="27" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="93" name="pipeHydraulic" translation="-0.0044 0.0497 -0.2511" rotation="-44.4261 -179.623 -0.384917" clipDistance="300" nodeId="446" materialIds="2" castsShadows="true" receiveShadows="true">
+                <Shape shapeId="94" name="pipeHydraulicPunch" translation="9.51295e-05 0.00975114 0.480477" rotation="0 -8.00413e-08 2.66804e-08" clipDistance="160" nodeId="447" materialIds="27" castsShadows="true" receiveShadows="true"/>
                 <TransformGroup name="visuals_9" translation="-0.00950998 -3.13884 -0.664952" rotation="178.853 0.377716 -0.92292" nodeId="448">
                   <Shape shapeId="92" name="armBase3_1" translation="-0.139874 -2.76178 -1.65369" rotation="-88.8597 0.396059 -0.915199" clipDistance="160" nodeId="449" materialIds="27" castsShadows="true" receiveShadows="true"/>
                 </TransformGroup>
@@ -733,13 +733,13 @@
                   </TransformGroup>
                   <Light name="workLightBackLowShort" translation="-0.012 0.1956 -4.9148" rotation="-44.9314 -0 0" clipDistance="75" nodeId="511" type="spot" color="0.85 0.85 1" emitDiffuse="true" emitSpecular="true" range="10" coneAngle="90" dropOff="2"/>
                 </TransformGroup>
-                <Shape shapeId="133" name="pipeArm01ShortHydraulic" translation="0.208 0.0699999 -4.8841" rotation="-43.9994 175.524 -4.3103" clipDistance="160" nodeId="512" materialIds="27" castsShadows="true" receiveShadows="true">
-                  <TransformGroup name="pipeArm01ShortHydraulicJoint" translation="-5.96046e-08 4.76837e-07 4.76837e-07" rotation="-43.8308 -173.789 -0.000418165" nodeId="513"/>
-                  <Shape shapeId="134" name="pipeArm01ShortHydraulicPunch" translation="0.0262618 -0.32021 0.00933623" rotation="3.41509e-06 -0 -2.13443e-07" clipDistance="100" nodeId="514" materialIds="27" castsShadows="true" receiveShadows="true"/>
+                <Shape shapeId="133" name="pipeArm01ShortHydraulic" translation="0.208 0.0699999 -4.8841" rotation="133.999 -4.47593 -4.3103" clipDistance="160" nodeId="512" materialIds="27" castsShadows="true" receiveShadows="true">
+                  <TransformGroup name="pipeArm01ShortHydraulicJoint" translation="0.000406414 3.60012e-05 -0.000493765" rotation="-133.831 0.0004172 -6.21086" nodeId="513"/>
+                  <Shape shapeId="134" name="pipeArm01ShortHydraulicPunch" translation="-0.0258554 -0.00929976 0.319716" rotation="-1.53679e-05 -180 -4.26887e-07" clipDistance="100" nodeId="514" materialIds="27" castsShadows="true" receiveShadows="true"/>
                 </Shape>
                 <TransformGroup name="pipeArm01ShortRot" translation="0.0007 0.0248001 -5.3038" rotation="157.718 -0 0" nodeId="515">
                   <Shape shapeId="135" name="pipeArm01Short" translation="-9.31323e-10 3.57628e-07 0" rotation="-35.913 -0 0" clipDistance="300" nodeId="516" materialIds="27" castsShadows="true" receiveShadows="true">
-                    <TransformGroup name="pipeArm01ShortHydraulicRef" translation="0.1822 0.254286 0.051048" rotation="-14.2128 174.725 3.28296" nodeId="517"/>
+                    <TransformGroup name="pipeArm01ShortHydraulicRef" translation="0.2022 0.259556 0.0595467" rotation="-14.2128 174.725 3.28296" nodeId="517"/>
                     <Shape shapeId="136" name="pipeArm02Short" translation="-0.0029 -0.0168393 0.453464" rotation="-41.9462 -0 0" clipDistance="300" nodeId="518" materialIds="27" castsShadows="true" receiveShadows="true">
                       <TransformGroup name="effect" translation="-0.000400001 0.0875697 0.155041" nodeId="519">
                         <Shape shapeId="137" name="pipeEffect3Short" translation="0 4.76837e-07 -2.98023e-07" rotation="-20.2823 -180 -0.000388411" visibility="false" clipDistance="100" nodeId="520" materialIds="35" castsShadows="true" receiveShadows="true"/>
@@ -756,7 +756,7 @@
                   </Shape>
                 </TransformGroup>
                 <Shape shapeId="141" name="pipeEffect1Short" translation="-0.012 0.296 -4.32" rotation="-8.6402 -0 0" clipDistance="100" nodeId="528" materialIds="35" castsShadows="true" receiveShadows="true"/>
-                <TransformGroup name="pipeHydraulicRef" translation="-0.007 0.2883 -0.5773" rotation="-45.575 180 0.536" nodeId="529"/>
+                <TransformGroup name="pipeHydraulicRef" translation="-0.007 0.2853 -0.5843" rotation="-45.575 180 0.536" nodeId="529"/>
                 <Shape shapeId="142" name="pipeLightOrientationArm01Short" translation="0.1778 -0.0227001 -5.1591" rotation="-39.5795 -180 -0.000319719" clipDistance="300" nodeId="530" materialIds="27" castsShadows="true" receiveShadows="true"/>
                 <Shape shapeId="143" name="pipeLightOrientationArm02Short" translation="0.2071 0.267 -4.7707" rotation="-29.7286 -179.11 0.508924" clipDistance="300" nodeId="531" materialIds="27" castsShadows="true" receiveShadows="true"/>
                 <TransformGroup name="pipeShortJoint" translation="0 0.000299931 -0.000299931" nodeId="532"/>

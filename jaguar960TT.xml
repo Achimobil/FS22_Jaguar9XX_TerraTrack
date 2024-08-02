@@ -849,6 +849,7 @@
         <i3dMapping id="worklightPipeShort_static" node="0>1|10|0|3|2|0|2" />
         <i3dMapping id="workLightBackLowShort" node="0>1|10|0|3|2|1" />
         <i3dMapping id="pipeArm01ShortHydraulic" node="0>1|10|0|3|3" />
+        <i3dMapping id="pipeArm01ShortHydraulicJoint" node="0>1|10|0|3|3|0" />
         <i3dMapping id="pipeArm01ShortHydraulicPunch" node="0>1|10|0|3|3|1" />
         <i3dMapping id="pipeArm01Short" node="0>1|10|0|3|4|0" />
         <i3dMapping id="pipeArm01ShortHydraulicRef" node="0>1|10|0|3|4|0|0" />
@@ -862,6 +863,7 @@
         <i3dMapping id="pipeHydraulicRef" node="0>1|10|0|3|6" />
         <i3dMapping id="pipeLightOrientationArm01Short" node="0>1|10|0|3|7" />
         <i3dMapping id="pipeLightOrientationArm02Short" node="0>1|10|0|3|8" />
+        <i3dMapping id="visuals_4" node="0>1|10|0|3|12" />
         <i3dMapping id="exhaustParticle1" node="0>1|11|0" />
         <i3dMapping id="cameraDisplay" node="0>1|13|0" />
         <i3dMapping id="exterior_02_vis" node="0>1|13|4" />
